@@ -1,0 +1,32 @@
+CdmFr\Model\V1_1_1\CdmFr\LcmsType:
+    properties:
+        exists:
+            expose: true
+            access_type: public_method
+            serialized_name: exists
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExists
+                setter: setExists
+            type: boolean
+        resourceManagement:
+            expose: true
+            access_type: public_method
+            serialized_name: resourceManagement
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getResourceManagement
+                setter: setResourceManagement
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType
+        percentageOfUse:
+            expose: true
+            access_type: public_method
+            serialized_name: percentageOfUse
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getPercentageOfUse
+                setter: setPercentageOfUse
+            type: integer

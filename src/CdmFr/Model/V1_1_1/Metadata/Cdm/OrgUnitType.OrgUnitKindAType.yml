@@ -1,0 +1,29 @@
+CdmFr\Model\V1_1_1\Cdm\OrgUnitType\OrgUnitKindAType:
+    properties:
+        orgType:
+            expose: true
+            access_type: public_method
+            serialized_name: orgType
+            accessor:
+                getter: getOrgType
+                setter: setOrgType
+            xml_attribute: true
+            type: string
+        orgTypeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: orgTypeCode
+            accessor:
+                getter: getOrgTypeCode
+                setter: setOrgTypeCode
+            xml_attribute: true
+            type: string
+        responsibleBody:
+            expose: true
+            access_type: public_method
+            serialized_name: responsibleBody
+            accessor:
+                getter: getResponsibleBody
+                setter: setResponsibleBody
+            xml_attribute: true
+            type: string

@@ -1,0 +1,40 @@
+CdmFr\Model\V1_1_1\Cdm\Level:
+    xml_root_name: level
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        level:
+            expose: true
+            access_type: public_method
+            serialized_name: level
+            accessor:
+                getter: getLevel
+                setter: setLevel
+            xml_attribute: true
+            type: string
+        competenceYielding:
+            expose: true
+            access_type: public_method
+            serialized_name: competenceYielding
+            accessor:
+                getter: getCompetenceYielding
+                setter: setCompetenceYielding
+            xml_attribute: true
+            type: string
+        competenceYieldingCode:
+            expose: true
+            access_type: public_method
+            serialized_name: competenceYieldingCode
+            accessor:
+                getter: getCompetenceYieldingCode
+                setter: setCompetenceYieldingCode
+            xml_attribute: true
+            type: string
+        languageCECRLLevel:
+            expose: true
+            access_type: public_method
+            serialized_name: languageCECRLLevel
+            accessor:
+                getter: getLanguageCECRLLevel
+                setter: setLanguageCECRLLevel
+            xml_attribute: true
+            type: string

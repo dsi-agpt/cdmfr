@@ -1,0 +1,166 @@
+CdmFr\Model\V1_1_1\Xhtml\Ins:
+    xml_root_name: ins
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            accessor:
+                getter: getClass
+                setter: setClass
+            xml_attribute: true
+            type: string
+        style:
+            expose: true
+            access_type: public_method
+            serialized_name: style
+            accessor:
+                getter: getStyle
+                setter: setStyle
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        dir:
+            expose: true
+            access_type: public_method
+            serialized_name: dir
+            accessor:
+                getter: getDir
+                setter: setDir
+            xml_attribute: true
+            type: string
+        onclick:
+            expose: true
+            access_type: public_method
+            serialized_name: onclick
+            accessor:
+                getter: getOnclick
+                setter: setOnclick
+            xml_attribute: true
+            type: string
+        ondblclick:
+            expose: true
+            access_type: public_method
+            serialized_name: ondblclick
+            accessor:
+                getter: getOndblclick
+                setter: setOndblclick
+            xml_attribute: true
+            type: string
+        onmousedown:
+            expose: true
+            access_type: public_method
+            serialized_name: onmousedown
+            accessor:
+                getter: getOnmousedown
+                setter: setOnmousedown
+            xml_attribute: true
+            type: string
+        onmouseup:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseup
+            accessor:
+                getter: getOnmouseup
+                setter: setOnmouseup
+            xml_attribute: true
+            type: string
+        onmouseover:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseover
+            accessor:
+                getter: getOnmouseover
+                setter: setOnmouseover
+            xml_attribute: true
+            type: string
+        onmousemove:
+            expose: true
+            access_type: public_method
+            serialized_name: onmousemove
+            accessor:
+                getter: getOnmousemove
+                setter: setOnmousemove
+            xml_attribute: true
+            type: string
+        onmouseout:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseout
+            accessor:
+                getter: getOnmouseout
+                setter: setOnmouseout
+            xml_attribute: true
+            type: string
+        onkeypress:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeypress
+            accessor:
+                getter: getOnkeypress
+                setter: setOnkeypress
+            xml_attribute: true
+            type: string
+        onkeydown:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeydown
+            accessor:
+                getter: getOnkeydown
+                setter: setOnkeydown
+            xml_attribute: true
+            type: string
+        onkeyup:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeyup
+            accessor:
+                getter: getOnkeyup
+                setter: setOnkeyup
+            xml_attribute: true
+            type: string
+        cite:
+            expose: true
+            access_type: public_method
+            serialized_name: cite
+            accessor:
+                getter: getCite
+                setter: setCite
+            xml_attribute: true
+            type: string
+        datetime:
+            expose: true
+            access_type: public_method
+            serialized_name: datetime
+            accessor:
+                getter: getDatetime
+                setter: setDatetime
+            xml_attribute: true
+            type: Goetas\Xsd\XsdToPhp\XMLSchema\DateTime

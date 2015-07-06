@@ -1,0 +1,26 @@
+CdmFr\Model\V1_1_1\Lheo\LheoSubtypeType:
+    properties:
+        offres:
+            expose: true
+            access_type: public_method
+            serialized_name: offres
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getOffres
+                setter: setOffres
+            type: CdmFr\Model\V1_1_1\Lheo\Offres
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

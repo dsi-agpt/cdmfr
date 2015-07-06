@@ -1,0 +1,229 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType:
+    properties:
+        diplomaType:
+            expose: true
+            access_type: public_method
+            serialized_name: diplomaType
+            accessor:
+                getter: getDiplomaType
+                setter: setDiplomaType
+            xml_attribute: true
+            type: string
+        organization:
+            expose: true
+            access_type: public_method
+            serialized_name: Organization
+            accessor:
+                getter: getOrganization
+                setter: setOrganization
+            xml_attribute: true
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        ident:
+            expose: true
+            access_type: public_method
+            serialized_name: ident
+            accessor:
+                getter: getIdent
+                setter: setIdent
+            xml_attribute: true
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        habiliId:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliId
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliId
+                setter: setHabiliId
+            type: string
+        legalRef:
+            expose: true
+            access_type: public_method
+            serialized_name: legalRef
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLegalRef
+                setter: setLegalRef
+            xml_list:
+                inline: true
+                entry_name: legalRef
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        field:
+            expose: true
+            access_type: public_method
+            serialized_name: field
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getField
+                setter: setField
+            type: CdmFr\Model\V1_1_1\CdmFr\FieldType
+        licPro:
+            expose: true
+            access_type: public_method
+            serialized_name: licPro
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLicPro
+                setter: setLicPro
+            type: CdmFr\Model\V1_1_1\CdmFr\HabilitationType\LicProAType
+        otherDiploma:
+            expose: true
+            access_type: public_method
+            serialized_name: otherDiploma
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getOtherDiploma
+                setter: setOtherDiploma
+            type: CdmFr\Model\V1_1_1\CdmFr\HabilitationType\OtherDiplomaAType
+        contexteEtEnjeux:
+            expose: true
+            access_type: public_method
+            serialized_name: contexteEtEnjeux
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getContexteEtEnjeux
+                setter: setContexteEtEnjeux
+            type: CdmFr\Model\V1_1_1\CdmFr\HabilitationType\ContexteEtEnjeuxAType
+        habiliRequest:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliRequest
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliRequest
+                setter: setHabiliRequest
+            type: CdmFr\Model\V1_1_1\CdmFr\HabilitationType\HabiliRequestAType
+        cohabilitation:
+            expose: true
+            access_type: public_method
+            serialized_name: cohabilitation
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCohabilitation
+                setter: setCohabilitation
+            xml_list:
+                inline: true
+                entry_name: cohabilitation
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\CohabilitationType>
+        habiliObject:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliObject
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliObject
+                setter: setHabiliObject
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefProgram>
+            xml_list:
+                inline: false
+                entry_name: refProgram
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        domainName:
+            expose: true
+            access_type: public_method
+            serialized_name: domainName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDomainName
+                setter: setDomainName
+            xml_list:
+                inline: true
+                entry_name: domainName
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\HabilitationType\DomainNameAType>
+        partnership:
+            expose: true
+            access_type: public_method
+            serialized_name: partnership
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getPartnership
+                setter: setPartnership
+            xml_list:
+                inline: true
+                entry_name: partnership
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\PartnershipDataType>
+        equivalence:
+            expose: true
+            access_type: public_method
+            serialized_name: equivalence
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getEquivalence
+                setter: setEquivalence
+            xml_list:
+                inline: true
+                entry_name: equivalence
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\HabilitationType\EquivalenceAType>
+        i13nProg:
+            expose: true
+            access_type: public_method
+            serialized_name: i13nProg
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getI13nProg
+                setter: setI13nProg
+            xml_list:
+                inline: true
+                entry_name: i13nProg
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\I13nProgType>
+        relatedPrograms:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedPrograms
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRelatedPrograms
+                setter: setRelatedPrograms
+            xml_list:
+                inline: true
+                entry_name: relatedPrograms
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\HabilitationType\RelatedProgramsAType>
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType

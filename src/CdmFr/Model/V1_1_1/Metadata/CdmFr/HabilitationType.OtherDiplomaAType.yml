@@ -1,0 +1,54 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\OtherDiplomaAType:
+    properties:
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getName
+                setter: setName
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        otherDiplomaInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: otherDiplomaInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getOtherDiplomaInfo
+                setter: setOtherDiplomaInfo
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit>
+        refProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: refProgram
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefProgram
+                setter: setRefProgram
+            xml_list:
+                inline: true
+                entry_name: refProgram
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefProgram>

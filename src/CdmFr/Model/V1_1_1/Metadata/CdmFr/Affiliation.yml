@@ -1,0 +1,56 @@
+CdmFr\Model\V1_1_1\CdmFr\Affiliation:
+    xml_root_name: affiliation
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit>
+        professField:
+            expose: true
+            access_type: public_method
+            serialized_name: professField
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getProfessField
+                setter: setProfessField
+            xml_list:
+                inline: true
+                entry_name: professField
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\Affiliation\ProfessFieldAType>
+        sectCNU:
+            expose: true
+            access_type: public_method
+            serialized_name: sectCNU
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getSectCNU
+                setter: setSectCNU
+            type: CdmFr\Model\V1_1_1\CdmFr\Affiliation\SectCNUAType
+        publications:
+            expose: true
+            access_type: public_method
+            serialized_name: publications
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getPublications
+                setter: setPublications
+            xml_list:
+                inline: true
+                entry_name: publications
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\Affiliation\PublicationsAType>

@@ -1,0 +1,40 @@
+CdmFr\Model\V1_1_1\Lheo\LheoPlusSubtypeType:
+    properties:
+        lheo:
+            expose: true
+            access_type: public_method
+            serialized_name: lheo
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getLheo
+                setter: setLheo
+            type: CdmFr\Model\V1_1_1\Lheo\Lheo
+        organismeFormationResponsable:
+            expose: true
+            access_type: public_method
+            serialized_name: organisme-formation-responsable
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getOrganismeFormationResponsable
+                setter: setOrganismeFormationResponsable
+            xml_list:
+                inline: true
+                entry_name: organisme-formation-responsable
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\OrganismeFormationResponsable>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

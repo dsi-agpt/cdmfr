@@ -1,0 +1,46 @@
+CdmFr\Model\V1_1_1\CdmFr\RefOrgResp:
+    xml_root_name: refOrgResp
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        respRole:
+            expose: true
+            access_type: public_method
+            serialized_name: respRole
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRespRole
+                setter: setRespRole
+            xml_list:
+                inline: true
+                entry_name: respRole
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        relType:
+            expose: true
+            access_type: public_method
+            serialized_name: relType
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRelType
+                setter: setRelType
+            xml_list:
+                inline: true
+                entry_name: relType
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit>

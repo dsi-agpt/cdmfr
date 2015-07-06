@@ -1,0 +1,136 @@
+CdmFr\Model\V1_1_1\CdmFr\ExamType:
+    properties:
+        examName:
+            expose: true
+            access_type: public_method
+            serialized_name: examName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamName
+                setter: setExamName
+            type: array<CdmFr\Model\V1_1_1\Cdm\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        examKind:
+            expose: true
+            access_type: public_method
+            serialized_name: examKind
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamKind
+                setter: setExamKind
+            type: CdmFr\Model\V1_1_1\CdmFr\ExamType\ExamKindAType
+        registrationDeadline:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationDeadline
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRegistrationDeadline
+                setter: setRegistrationDeadline
+            type: CdmFr\Model\V1_1_1\Cdm\RegistrationDeadline
+        cancelDeadline:
+            expose: true
+            access_type: public_method
+            serialized_name: cancelDeadline
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCancelDeadline
+                setter: setCancelDeadline
+            type: CdmFr\Model\V1_1_1\Cdm\CancelDeadline
+        evaluationDeadline:
+            expose: true
+            access_type: public_method
+            serialized_name: evaluationDeadline
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getEvaluationDeadline
+                setter: setEvaluationDeadline
+            type: CdmFr\Model\V1_1_1\Cdm\EvaluationDeadline
+        examStart:
+            expose: true
+            access_type: public_method
+            serialized_name: examStart
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamStart
+                setter: setExamStart
+            type: CdmFr\Model\V1_1_1\Cdm\ExamStart
+        examEnd:
+            expose: true
+            access_type: public_method
+            serialized_name: examEnd
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamEnd
+                setter: setExamEnd
+            type: CdmFr\Model\V1_1_1\Cdm\ExamEnd
+        examDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: examDuration
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamDuration
+                setter: setExamDuration
+            type: CdmFr\Model\V1_1_1\CdmFr\ExamType\ExamDurationAType
+        examLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: examLocation
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamLocation
+                setter: setExamLocation
+            type: CdmFr\Model\V1_1_1\Cdm\ExamLocation
+        contacts:
+            expose: true
+            access_type: public_method
+            serialized_name: contacts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getContacts
+                setter: setContacts
+            type: CdmFr\Model\V1_1_1\Cdm\Contacts
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock
+        examStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: examStructure
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamStructure
+                setter: setExamStructure
+            type: CdmFr\Model\V1_1_1\CdmFr\ExamType\ExamStructureAType
+        certifCompetence:
+            expose: true
+            access_type: public_method
+            serialized_name: certifCompetence
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCertifCompetence
+                setter: setCertifCompetence
+            type: CdmFr\Model\V1_1_1\CdmFr\ExamType\CertifCompetenceAType

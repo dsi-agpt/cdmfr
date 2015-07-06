@@ -1,0 +1,67 @@
+CdmFr\Model\V1_1_1\Xhtml\Style:
+    xml_root_name: style
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        dir:
+            expose: true
+            access_type: public_method
+            serialized_name: dir
+            accessor:
+                getter: getDir
+                setter: setDir
+            xml_attribute: true
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        media:
+            expose: true
+            access_type: public_method
+            serialized_name: media
+            accessor:
+                getter: getMedia
+                setter: setMedia
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        space:
+            expose: true
+            access_type: public_method
+            serialized_name: space
+            accessor:
+                getter: getSpace
+                setter: setSpace
+            xml_attribute: true
+            type: string

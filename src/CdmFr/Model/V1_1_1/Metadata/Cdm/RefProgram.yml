@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\Cdm\RefProgram:
+    xml_root_name: refProgram
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        idRef:
+            expose: true
+            access_type: public_method
+            serialized_name: idRef
+            accessor:
+                getter: getIdRef
+                setter: setIdRef
+            xml_attribute: true
+            type: string
+        ref:
+            expose: true
+            access_type: public_method
+            serialized_name: ref
+            accessor:
+                getter: getRef
+                setter: setRef
+            xml_attribute: true
+            type: string

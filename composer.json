@@ -1,0 +1,38 @@
+{
+    "name": "dsi-agpt/cdmfr",
+    "description": "Zf2 module to parse french academic cdm-fr xml format",
+    "type": "library",
+    "license" : "GPL-2.0",
+    "keywords": [
+        "cdmfr",
+        "zf2"
+    ],
+    "version":"0.0.1",
+    "authors": [
+                {
+                    "name": "Joachim Dornbusch",
+                    "email": "joachim.dornbusch@agroparistech.fr"
+                }
+            ],
+    "extra": {
+          "branch-alias": {
+                    "dev-master": "0.0.1-dev"
+          }
+    },       
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": "2.3.*",
+        "sp/jms-serializer-module": "dev-master",
+    },
+    "require-dev": {
+    		    
+    },
+    "autoload": {
+         "psr-0": {
+             "CdmFr": "src/"
+         },
+         "classmap": [
+             "./Module.php"
+         ]
+    }
+}

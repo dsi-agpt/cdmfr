@@ -1,0 +1,37 @@
+CdmFr\Model\V1_1_1\CdmFr\GlobalVolumeType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: float
+        teachingtype:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingtype
+            accessor:
+                getter: getTeachingtype
+                setter: setTeachingtype
+            xml_attribute: true
+            type: string
+        coeff:
+            expose: true
+            access_type: public_method
+            serialized_name: coeff
+            accessor:
+                getter: getCoeff
+                setter: setCoeff
+            xml_attribute: true
+            type: integer
+        minMax:
+            expose: true
+            access_type: public_method
+            serialized_name: minMax
+            accessor:
+                getter: getMinMax
+                setter: setMinMax
+            xml_attribute: true
+            type: string

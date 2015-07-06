@@ -1,0 +1,74 @@
+CdmFr\Model\V1_1_1\Cdm\Adr:
+    xml_root_name: adr
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        pobox:
+            expose: true
+            access_type: public_method
+            serialized_name: pobox
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPobox
+                setter: setPobox
+            type: string
+        extadr:
+            expose: true
+            access_type: public_method
+            serialized_name: extadr
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getExtadr
+                setter: setExtadr
+            type: string
+        street:
+            expose: true
+            access_type: public_method
+            serialized_name: street
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getStreet
+                setter: setStreet
+            type: string
+        locality:
+            expose: true
+            access_type: public_method
+            serialized_name: locality
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getLocality
+                setter: setLocality
+            type: CdmFr\Model\V1_1_1\Cdm\Adr\LocalityAType
+        region:
+            expose: true
+            access_type: public_method
+            serialized_name: region
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRegion
+                setter: setRegion
+            type: string
+        pcode:
+            expose: true
+            access_type: public_method
+            serialized_name: pcode
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPcode
+                setter: setPcode
+            type: string
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: country
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string

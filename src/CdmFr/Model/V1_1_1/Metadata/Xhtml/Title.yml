@@ -1,0 +1,31 @@
+CdmFr\Model\V1_1_1\Xhtml\Title:
+    xml_root_name: title
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        dir:
+            expose: true
+            access_type: public_method
+            serialized_name: dir
+            accessor:
+                getter: getDir
+                setter: setDir
+            xml_attribute: true
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string

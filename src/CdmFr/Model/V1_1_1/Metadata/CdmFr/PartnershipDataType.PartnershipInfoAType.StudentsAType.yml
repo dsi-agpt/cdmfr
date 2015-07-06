@@ -1,0 +1,21 @@
+CdmFr\Model\V1_1_1\CdmFr\PartnershipDataType\PartnershipInfoAType\StudentsAType:
+    properties:
+        number:
+            expose: true
+            access_type: public_method
+            serialized_name: number
+            accessor:
+                getter: getNumber
+                setter: setNumber
+            xml_attribute: true
+            type: integer
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock

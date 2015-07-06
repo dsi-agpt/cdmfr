@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\Cdm\PersonType\NameAType:
+    properties:
+        given:
+            expose: true
+            access_type: public_method
+            serialized_name: given
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getGiven
+                setter: setGiven
+            type: string
+        family:
+            expose: true
+            access_type: public_method
+            serialized_name: family
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getFamily
+                setter: setFamily
+            type: string

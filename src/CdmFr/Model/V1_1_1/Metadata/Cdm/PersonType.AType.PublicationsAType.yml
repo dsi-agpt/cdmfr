@@ -1,0 +1,12 @@
+CdmFr\Model\V1_1_1\Cdm\PersonType\AType\PublicationsAType:
+    properties:
+        href:
+            expose: true
+            access_type: public_method
+            serialized_name: href
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHref
+                setter: setHref
+            type: string

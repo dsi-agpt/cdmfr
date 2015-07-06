@@ -1,0 +1,31 @@
+CdmFr\Model\V1_1_1\Cdm\FormOfTeaching:
+    xml_root_name: formOfTeaching
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        org:
+            expose: true
+            access_type: public_method
+            serialized_name: org
+            accessor:
+                getter: getOrg
+                setter: setOrg
+            xml_attribute: true
+            type: string
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            xml_attribute: true
+            type: string
+        itpercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: itpercentage
+            accessor:
+                getter: getItpercentage
+                setter: setItpercentage
+            xml_attribute: true
+            type: integer

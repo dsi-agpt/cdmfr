@@ -1,0 +1,58 @@
+CdmFr\Model\V1_1_1\Lheo\DomaineFormationSubtypeType:
+    properties:
+        codeFORMACODE:
+            expose: true
+            access_type: public_method
+            serialized_name: code-FORMACODE
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeFORMACODE
+                setter: setCodeFORMACODE
+            xml_list:
+                inline: true
+                entry_name: code-FORMACODE
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\CodeFORMACODE>
+        codeNSF:
+            expose: true
+            access_type: public_method
+            serialized_name: code-NSF
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeNSF
+                setter: setCodeNSF
+            xml_list:
+                inline: true
+                entry_name: code-NSF
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\CodeNSF>
+        codeROME:
+            expose: true
+            access_type: public_method
+            serialized_name: code-ROME
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeROME
+                setter: setCodeROME
+            xml_list:
+                inline: true
+                entry_name: code-ROME
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\CodeROME>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

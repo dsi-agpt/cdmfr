@@ -1,0 +1,25 @@
+CdmFr\Model\V1_1_1\Cdm\PersonType\AType\SectCNUAType:
+    properties:
+        sectionCNUCodeValue:
+            expose: true
+            access_type: public_method
+            serialized_name: sectionCNUCodeValue
+            accessor:
+                getter: getSectionCNUCodeValue
+                setter: setSectionCNUCodeValue
+            xml_attribute: true
+            type: string
+        sectionCNULibelValue:
+            expose: true
+            access_type: public_method
+            serialized_name: sectionCNULibelValue
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getSectionCNULibelValue
+                setter: setSectionCNULibelValue
+            xml_list:
+                inline: true
+                entry_name: sectionCNULibelValue
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>

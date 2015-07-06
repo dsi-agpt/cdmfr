@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\Cdm\TeachingActivityType\AType\AType\RegistrationProcessAType:
+    properties:
+        registrationLocation:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationLocation
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRegistrationLocation
+                setter: setRegistrationLocation
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType
+        registrationModalities:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationModalities
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRegistrationModalities
+                setter: setRegistrationModalities
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType

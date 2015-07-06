@@ -1,0 +1,31 @@
+CdmFr\Model\V1_1_1\CdmFr\TimingInfoType:
+    properties:
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            xml_attribute: true
+            type: DateInterval
+        openingDate:
+            expose: true
+            access_type: public_method
+            serialized_name: openingDate
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getOpeningDate
+                setter: setOpeningDate
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        renewalDate:
+            expose: true
+            access_type: public_method
+            serialized_name: renewalDate
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRenewalDate
+                setter: setRenewalDate
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType

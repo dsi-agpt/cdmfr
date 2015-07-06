@@ -1,0 +1,125 @@
+CdmFr\Model\V1_1_1\Cdm\CDM:
+    xml_root_name: CDM
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        version:
+            expose: true
+            access_type: public_method
+            serialized_name: version
+            accessor:
+                getter: getVersion
+                setter: setVersion
+            xml_attribute: true
+            type: string
+        profile:
+            expose: true
+            access_type: public_method
+            serialized_name: profile
+            accessor:
+                getter: getProfile
+                setter: setProfile
+            xml_attribute: true
+            type: string
+        habilitation:
+            expose: true
+            access_type: public_method
+            serialized_name: habilitation
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getHabilitation
+                setter: setHabilitation
+            xml_list:
+                inline: true
+                entry_name: habilitation
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\Habilitation>
+        properties:
+            expose: true
+            access_type: public_method
+            serialized_name: properties
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getProperties
+                setter: setProperties
+            type: CdmFr\Model\V1_1_1\Cdm\CDM\PropertiesAType
+        orgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnit
+                setter: setOrgUnit
+            xml_list:
+                inline: true
+                entry_name: orgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\OrgUnit>
+        program:
+            expose: true
+            access_type: public_method
+            serialized_name: program
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getProgram
+                setter: setProgram
+            xml_list:
+                inline: true
+                entry_name: program
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Program>
+        course:
+            expose: true
+            access_type: public_method
+            serialized_name: course
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourse
+                setter: setCourse
+            xml_list:
+                inline: true
+                entry_name: course
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Course>
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: person
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            xml_list:
+                inline: true
+                entry_name: person
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Person>
+        lheoAdds:
+            expose: true
+            access_type: public_method
+            serialized_name: lheoAdds
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getLheoAdds
+                setter: setLheoAdds
+            xml_list:
+                inline: true
+                entry_name: lheoAdds
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\LheoAdds>

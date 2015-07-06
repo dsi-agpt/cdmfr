@@ -1,0 +1,3 @@
+CdmFr\Model\V1_1_1\Lheo\ParcoursDeFormation:
+    xml_root_name: parcours-de-formation
+    xml_root_namespace: 'http://www.lheo.org/2.0'

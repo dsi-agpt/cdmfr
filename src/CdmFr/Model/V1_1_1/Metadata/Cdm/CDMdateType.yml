@@ -1,0 +1,11 @@
+CdmFr\Model\V1_1_1\Cdm\CDMdateType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_attribute: true
+            type: 'DateTime<''Y-m-d''>'

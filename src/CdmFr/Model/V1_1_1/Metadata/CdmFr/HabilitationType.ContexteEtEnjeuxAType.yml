@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\ContexteEtEnjeuxAType:
+    properties:
+        contexteEtEnjeuxInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: contexteEtEnjeuxInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getContexteEtEnjeuxInfo
+                setter: setContexteEtEnjeuxInfo
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType
+        webLink:
+            expose: true
+            access_type: public_method
+            serialized_name: webLink
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getWebLink
+                setter: setWebLink
+            type: CdmFr\Model\V1_1_1\CdmFr\WebLink

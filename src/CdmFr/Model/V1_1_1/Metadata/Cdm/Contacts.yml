@@ -1,0 +1,102 @@
+CdmFr\Model\V1_1_1\Cdm\Contacts:
+    xml_root_name: contacts
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        contactData:
+            expose: true
+            access_type: public_method
+            serialized_name: contactData
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getContactData
+                setter: setContactData
+            xml_list:
+                inline: true
+                entry_name: contactData
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\ContactData>
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: person
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            xml_list:
+                inline: true
+                entry_name: person
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Person>
+        refPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: refPerson
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefPerson
+                setter: setRefPerson
+            xml_list:
+                inline: true
+                entry_name: refPerson
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefPerson>
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefOrgUnit>
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            xml_list:
+                inline: true
+                entry_name: infoBlock
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlock>
+        refOrgResp:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgResp
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefOrgResp
+                setter: setRefOrgResp
+            xml_list:
+                inline: true
+                entry_name: refOrgResp
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefOrgResp>
+        teachingTeam:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingTeam
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingTeam
+                setter: setTeachingTeam
+            xml_list:
+                inline: true
+                entry_name: teachingTeam
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TeachingTeam>

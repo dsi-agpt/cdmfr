@@ -1,0 +1,26 @@
+CdmFr\Model\V1_1_1\Lheo\CoordonneesOrganismeSubtypeType:
+    properties:
+        coordonnees:
+            expose: true
+            access_type: public_method
+            serialized_name: coordonnees
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCoordonnees
+                setter: setCoordonnees
+            type: CdmFr\Model\V1_1_1\Lheo\Coordonnees
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

@@ -1,0 +1,20 @@
+CdmFr\Model\V1_1_1\CdmFr\HabiliStatusValueType:
+    properties:
+        habiliStatusValue:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliStatusValue
+            accessor:
+                getter: getHabiliStatusValue
+                setter: setHabiliStatusValue
+            xml_attribute: true
+            type: string
+        habiliNum:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliNum
+            accessor:
+                getter: getHabiliNum
+                setter: setHabiliNum
+            xml_attribute: true
+            type: string

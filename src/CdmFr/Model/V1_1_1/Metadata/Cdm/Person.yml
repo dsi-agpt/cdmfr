@@ -1,0 +1,4 @@
+CdmFr\Model\V1_1_1\Cdm\Person:
+    xml_root_name: person
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties: {  }

@@ -1,0 +1,50 @@
+CdmFr\Model\V1_1_1\CdmFr\CDMlocationType:
+    properties:
+        room:
+            expose: true
+            access_type: public_method
+            serialized_name: room
+            accessor:
+                getter: getRoom
+                setter: setRoom
+            xml_attribute: true
+            type: string
+        building:
+            expose: true
+            access_type: public_method
+            serialized_name: building
+            accessor:
+                getter: getBuilding
+                setter: setBuilding
+            xml_attribute: true
+            type: string
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            type: CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit
+        adr:
+            expose: true
+            access_type: public_method
+            serialized_name: adr
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getAdr
+                setter: setAdr
+            type: CdmFr\Model\V1_1_1\Cdm\Adr
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock

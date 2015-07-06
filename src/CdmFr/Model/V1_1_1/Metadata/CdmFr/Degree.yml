@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\CdmFr\Degree:
+    xml_root_name: degree
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        degree:
+            expose: true
+            access_type: public_method
+            serialized_name: degree
+            accessor:
+                getter: getDegree
+                setter: setDegree
+            xml_attribute: true
+            type: string
+        degreeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: degreeCode
+            accessor:
+                getter: getDegreeCode
+                setter: setDegreeCode
+            xml_attribute: true
+            type: string

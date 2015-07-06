@@ -1,0 +1,204 @@
+CdmFr\Model\V1_1_1\Lheo\FormationSubtypeType:
+    properties:
+        domaineFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: domaine-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDomaineFormation
+                setter: setDomaineFormation
+            type: CdmFr\Model\V1_1_1\Lheo\DomaineFormation
+        intituleFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: intitule-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getIntituleFormation
+                setter: setIntituleFormation
+            type: CdmFr\Model\V1_1_1\Lheo\IntituleFormation
+        objectifFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: objectif-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getObjectifFormation
+                setter: setObjectifFormation
+            type: CdmFr\Model\V1_1_1\Lheo\ObjectifFormation
+        resultatsAttendus:
+            expose: true
+            access_type: public_method
+            serialized_name: resultats-attendus
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getResultatsAttendus
+                setter: setResultatsAttendus
+            type: CdmFr\Model\V1_1_1\Lheo\ResultatsAttendus
+        contenuFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: contenu-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getContenuFormation
+                setter: setContenuFormation
+            type: CdmFr\Model\V1_1_1\Lheo\ContenuFormation
+        certifiante:
+            expose: true
+            access_type: public_method
+            serialized_name: certifiante
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCertifiante
+                setter: setCertifiante
+            type: CdmFr\Model\V1_1_1\Lheo\Certifiante
+        contactFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: contact-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getContactFormation
+                setter: setContactFormation
+            type: CdmFr\Model\V1_1_1\Lheo\ContactFormation
+        parcoursDeFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: parcours-de-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getParcoursDeFormation
+                setter: setParcoursDeFormation
+            type: CdmFr\Model\V1_1_1\Lheo\ParcoursDeFormation
+        codeNiveauEntree:
+            expose: true
+            access_type: public_method
+            serialized_name: code-niveau-entree
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeNiveauEntree
+                setter: setCodeNiveauEntree
+            type: CdmFr\Model\V1_1_1\Lheo\CodeNiveauEntree
+        objectifGeneralFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: objectif-general-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getObjectifGeneralFormation
+                setter: setObjectifGeneralFormation
+            type: CdmFr\Model\V1_1_1\Lheo\ObjectifGeneralFormation
+        certification:
+            expose: true
+            access_type: public_method
+            serialized_name: certification
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCertification
+                setter: setCertification
+            xml_list:
+                inline: true
+                entry_name: certification
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Certification>
+        codeNiveauSortie:
+            expose: true
+            access_type: public_method
+            serialized_name: code-niveau-sortie
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeNiveauSortie
+                setter: setCodeNiveauSortie
+            type: CdmFr\Model\V1_1_1\Lheo\CodeNiveauSortie
+        action:
+            expose: true
+            access_type: public_method
+            serialized_name: action
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getAction
+                setter: setAction
+            xml_list:
+                inline: true
+                entry_name: action
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Action>
+        organismeFormationResponsable:
+            expose: true
+            access_type: public_method
+            serialized_name: organisme-formation-responsable
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getOrganismeFormationResponsable
+                setter: setOrganismeFormationResponsable
+            type: CdmFr\Model\V1_1_1\Lheo\OrganismeFormationResponsable
+        identifiantModule:
+            expose: true
+            access_type: public_method
+            serialized_name: identifiant-module
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getIdentifiantModule
+                setter: setIdentifiantModule
+            type: CdmFr\Model\V1_1_1\Lheo\IdentifiantModule
+        positionnement:
+            expose: true
+            access_type: public_method
+            serialized_name: positionnement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPositionnement
+                setter: setPositionnement
+            type: CdmFr\Model\V1_1_1\Lheo\Positionnement
+        sousModules:
+            expose: true
+            access_type: public_method
+            serialized_name: sous-modules
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getSousModules
+                setter: setSousModules
+            type: CdmFr\Model\V1_1_1\Lheo\SousModules
+        modulesPrerequis:
+            expose: true
+            access_type: public_method
+            serialized_name: modules-prerequis
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModulesPrerequis
+                setter: setModulesPrerequis
+            type: CdmFr\Model\V1_1_1\Lheo\ModulesPrerequis
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

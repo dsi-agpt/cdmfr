@@ -1,0 +1,330 @@
+CdmFr\Model\V1_1_1\CdmFr\ProgramCode:
+    xml_root_name: programCode
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        codeSet:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSet
+            accessor:
+                getter: getCodeSet
+                setter: setCodeSet
+            xml_attribute: true
+            type: string
+        libelSet:
+            expose: true
+            access_type: public_method
+            serialized_name: libelSet
+            accessor:
+                getter: getLibelSet
+                setter: setLibelSet
+            xml_attribute: true
+            type: string
+        codeSectDGESIP:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSectDGESIP
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeSectDGESIP
+                setter: setCodeSectDGESIP
+            xml_list:
+                inline: true
+                entry_name: codeSectDGESIP
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeDomain:
+            expose: true
+            access_type: public_method
+            serialized_name: codeDomain
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeDomain
+                setter: setCodeDomain
+            xml_list:
+                inline: true
+                entry_name: codeDomain
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeLicProNat:
+            expose: true
+            access_type: public_method
+            serialized_name: codeLicProNat
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeLicProNat
+                setter: setCodeLicProNat
+            xml_list:
+                inline: true
+                entry_name: codeLicProNat
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeLicProSectAct:
+            expose: true
+            access_type: public_method
+            serialized_name: codeLicProSectAct
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeLicProSectAct
+                setter: setCodeLicProSectAct
+            xml_list:
+                inline: true
+                entry_name: codeLicProSectAct
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeSectDiscipSISE:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSectDiscipSISE
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeSectDiscipSISE
+                setter: setCodeSectDiscipSISE
+            xml_list:
+                inline: true
+                entry_name: codeSectDiscipSISE
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeCNISNSF:
+            expose: true
+            access_type: public_method
+            serialized_name: codeCNIS-NSF
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeCNISNSF
+                setter: setCodeCNISNSF
+            xml_list:
+                inline: true
+                entry_name: codeCNIS-NSF
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeRegimeInscriptionSISE:
+            expose: true
+            access_type: public_method
+            serialized_name: codeRegimeInscriptionSISE
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeRegimeInscriptionSISE
+                setter: setCodeRegimeInscriptionSISE
+            xml_list:
+                inline: true
+                entry_name: codeRegimeInscriptionSISE
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeCite97:
+            expose: true
+            access_type: public_method
+            serialized_name: codeCite97
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeCite97
+                setter: setCodeCite97
+            xml_list:
+                inline: true
+                entry_name: codeCite97
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeErasmus:
+            expose: true
+            access_type: public_method
+            serialized_name: codeErasmus
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeErasmus
+                setter: setCodeErasmus
+            xml_list:
+                inline: true
+                entry_name: codeErasmus
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeFAP:
+            expose: true
+            access_type: public_method
+            serialized_name: codeFAP
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeFAP
+                setter: setCodeFAP
+            xml_list:
+                inline: true
+                entry_name: codeFAP
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        codeUserDefined:
+            expose: true
+            access_type: public_method
+            serialized_name: codeUserDefined
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCodeUserDefined
+                setter: setCodeUserDefined
+            type: array<CdmFr\Model\V1_1_1\Cdm\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        libelSectDGESIP:
+            expose: true
+            access_type: public_method
+            serialized_name: libelSectDGESIP
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelSectDGESIP
+                setter: setLibelSectDGESIP
+            xml_list:
+                inline: true
+                entry_name: libelSectDGESIP
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelDomain:
+            expose: true
+            access_type: public_method
+            serialized_name: libelDomain
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelDomain
+                setter: setLibelDomain
+            xml_list:
+                inline: true
+                entry_name: libelDomain
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelLicProNat:
+            expose: true
+            access_type: public_method
+            serialized_name: libelLicProNat
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelLicProNat
+                setter: setLibelLicProNat
+            xml_list:
+                inline: true
+                entry_name: libelLicProNat
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelLicProSectAct:
+            expose: true
+            access_type: public_method
+            serialized_name: libelLicProSectAct
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelLicProSectAct
+                setter: setLibelLicProSectAct
+            xml_list:
+                inline: true
+                entry_name: libelLicProSectAct
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelSectDiscipSISE:
+            expose: true
+            access_type: public_method
+            serialized_name: libelSectDiscipSISE
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelSectDiscipSISE
+                setter: setLibelSectDiscipSISE
+            xml_list:
+                inline: true
+                entry_name: libelSectDiscipSISE
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelCNISNSF:
+            expose: true
+            access_type: public_method
+            serialized_name: libelCNIS-NSF
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelCNISNSF
+                setter: setLibelCNISNSF
+            xml_list:
+                inline: true
+                entry_name: libelCNIS-NSF
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelRegimeInscriptionSISE:
+            expose: true
+            access_type: public_method
+            serialized_name: libelRegimeInscriptionSISE
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelRegimeInscriptionSISE
+                setter: setLibelRegimeInscriptionSISE
+            xml_list:
+                inline: true
+                entry_name: libelRegimeInscriptionSISE
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelCite97:
+            expose: true
+            access_type: public_method
+            serialized_name: libelCite97
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelCite97
+                setter: setLibelCite97
+            xml_list:
+                inline: true
+                entry_name: libelCite97
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelErasmus:
+            expose: true
+            access_type: public_method
+            serialized_name: libelErasmus
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelErasmus
+                setter: setLibelErasmus
+            xml_list:
+                inline: true
+                entry_name: libelErasmus
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelFAP:
+            expose: true
+            access_type: public_method
+            serialized_name: libelFAP
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelFAP
+                setter: setLibelFAP
+            xml_list:
+                inline: true
+                entry_name: libelFAP
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>
+        libelUserDefined:
+            expose: true
+            access_type: public_method
+            serialized_name: libelUserDefined
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLibelUserDefined
+                setter: setLibelUserDefined
+            type: array<CdmFr\Model\V1_1_1\Cdm\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'

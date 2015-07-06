@@ -1,0 +1,42 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\HabiliRequestAType:
+    properties:
+        habiliTiming:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliTiming
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliTiming
+                setter: setHabiliTiming
+            type: CdmFr\Model\V1_1_1\CdmFr\HabilitationType\HabiliRequestAType\HabiliTimingAType
+        habilistatus:
+            expose: true
+            access_type: public_method
+            serialized_name: habilistatus
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabilistatus
+                setter: setHabilistatus
+            type: CdmFr\Model\V1_1_1\CdmFr\HabiliStatusValueType
+        habiliReqType:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliReqType
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliReqType
+                setter: setHabiliReqType
+            type: CdmFr\Model\V1_1_1\CdmFr\HabiliReqTypeValueType
+        habiliReqDates:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliReqDates
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliReqDates
+                setter: setHabiliReqDates
+            type: CdmFr\Model\V1_1_1\CdmFr\HabilitationType\HabiliRequestAType\HabiliReqDatesAType

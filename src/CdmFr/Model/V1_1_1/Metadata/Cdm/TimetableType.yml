@@ -1,0 +1,52 @@
+CdmFr\Model\V1_1_1\Cdm\TimetableType:
+    properties:
+        reoccurringEvents:
+            expose: true
+            access_type: public_method
+            serialized_name: reoccurringEvents
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getReoccurringEvents
+                setter: setReoccurringEvents
+            type: CdmFr\Model\V1_1_1\Cdm\TimetableType\ReoccurringEventsAType
+        singleEvent:
+            expose: true
+            access_type: public_method
+            serialized_name: singleEvent
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getSingleEvent
+                setter: setSingleEvent
+            type: CdmFr\Model\V1_1_1\Cdm\TimetableType\SingleEventAType
+        teachingPlace:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingPlace
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingPlace
+                setter: setTeachingPlace
+            type: CdmFr\Model\V1_1_1\Cdm\TeachingPlace
+        contacts:
+            expose: true
+            access_type: public_method
+            serialized_name: contacts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getContacts
+                setter: setContacts
+            type: CdmFr\Model\V1_1_1\Cdm\Contacts
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock

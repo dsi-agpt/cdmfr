@@ -1,0 +1,11 @@
+CdmFr\Model\V1_1_1\Cdm\ProgramType\AType\IndicatorsAType\FieldManagementAType:
+    properties:
+        purpose:
+            expose: true
+            access_type: public_method
+            serialized_name: purpose
+            accessor:
+                getter: getPurpose
+                setter: setPurpose
+            xml_attribute: true
+            type: string

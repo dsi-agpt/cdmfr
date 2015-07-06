@@ -1,0 +1,36 @@
+CdmFr\Model\V1_1_1\Lheo\OrganismeFinanceurSubtypeType:
+    properties:
+        codeFinanceur:
+            expose: true
+            access_type: public_method
+            serialized_name: code-financeur
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeFinanceur
+                setter: setCodeFinanceur
+            type: CdmFr\Model\V1_1_1\Lheo\CodeFinanceur
+        nbPlacesFinancees:
+            expose: true
+            access_type: public_method
+            serialized_name: nb-places-financees
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNbPlacesFinancees
+                setter: setNbPlacesFinancees
+            type: CdmFr\Model\V1_1_1\Lheo\NbPlacesFinancees
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

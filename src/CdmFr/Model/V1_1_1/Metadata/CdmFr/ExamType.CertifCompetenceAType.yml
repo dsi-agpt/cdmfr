@@ -1,0 +1,21 @@
+CdmFr\Model\V1_1_1\CdmFr\ExamType\CertifCompetenceAType:
+    properties:
+        certifName:
+            expose: true
+            access_type: public_method
+            serialized_name: certifName
+            accessor:
+                getter: getCertifName
+                setter: setCertifName
+            xml_attribute: true
+            type: string
+        compEval:
+            expose: true
+            access_type: public_method
+            serialized_name: compEval
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCompEval
+                setter: setCompEval
+            type: boolean

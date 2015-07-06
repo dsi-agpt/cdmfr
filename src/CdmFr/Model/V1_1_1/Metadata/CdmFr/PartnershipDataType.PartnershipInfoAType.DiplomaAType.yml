@@ -1,0 +1,25 @@
+CdmFr\Model\V1_1_1\CdmFr\PartnershipDataType\PartnershipInfoAType\DiplomaAType:
+    properties:
+        agreement:
+            expose: true
+            access_type: public_method
+            serialized_name: agreement
+            accessor:
+                getter: getAgreement
+                setter: setAgreement
+            xml_attribute: true
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: description
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'

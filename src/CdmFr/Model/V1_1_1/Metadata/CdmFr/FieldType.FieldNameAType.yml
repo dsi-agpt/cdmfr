@@ -1,0 +1,26 @@
+CdmFr\Model\V1_1_1\CdmFr\FieldType\FieldNameAType:
+    properties:
+        free:
+            expose: true
+            access_type: public_method
+            serialized_name: free
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getFree
+                setter: setFree
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        controlled:
+            expose: true
+            access_type: public_method
+            serialized_name: controlled
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getControlled
+                setter: setControlled
+            type: CdmFr\Model\V1_1_1\CdmFr\FieldType\FieldNameAType\ControlledAType

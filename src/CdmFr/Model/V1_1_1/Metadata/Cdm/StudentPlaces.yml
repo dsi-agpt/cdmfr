@@ -1,0 +1,13 @@
+CdmFr\Model\V1_1_1\Cdm\StudentPlaces:
+    xml_root_name: studentPlaces
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        places:
+            expose: true
+            access_type: public_method
+            serialized_name: places
+            accessor:
+                getter: getPlaces
+                setter: setPlaces
+            xml_attribute: true
+            type: integer

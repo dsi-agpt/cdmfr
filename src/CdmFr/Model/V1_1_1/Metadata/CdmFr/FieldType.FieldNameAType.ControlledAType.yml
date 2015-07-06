@@ -1,0 +1,21 @@
+CdmFr\Model\V1_1_1\CdmFr\FieldType\FieldNameAType\ControlledAType:
+    properties:
+        fieldNameCode:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldNameCode
+            accessor:
+                getter: getFieldNameCode
+                setter: setFieldNameCode
+            xml_attribute: true
+            type: string
+        registeredName:
+            expose: true
+            access_type: public_method
+            serialized_name: registeredName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRegisteredName
+                setter: setRegisteredName
+            type: string

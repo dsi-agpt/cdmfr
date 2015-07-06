@@ -1,0 +1,28 @@
+CdmFr\Model\V1_1_1\Cdm\CDMlocationType\AType\LocalityAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        countyCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countyCode
+            accessor:
+                getter: getCountyCode
+                setter: setCountyCode
+            xml_attribute: true
+            type: integer
+        municipalityCode:
+            expose: true
+            access_type: public_method
+            serialized_name: municipalityCode
+            accessor:
+                getter: getMunicipalityCode
+                setter: setMunicipalityCode
+            xml_attribute: true
+            type: integer

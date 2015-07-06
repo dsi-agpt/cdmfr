@@ -1,0 +1,135 @@
+CdmFr\Model\V1_1_1\Cdm\TeachingActivityType:
+    properties:
+        method:
+            expose: true
+            access_type: public_method
+            serialized_name: method
+            accessor:
+                getter: getMethod
+                setter: setMethod
+            xml_attribute: true
+            type: string
+        org:
+            expose: true
+            access_type: public_method
+            serialized_name: org
+            accessor:
+                getter: getOrg
+                setter: setOrg
+            xml_attribute: true
+            type: string
+        timeOfDay:
+            expose: true
+            access_type: public_method
+            serialized_name: timeOfDay
+            accessor:
+                getter: getTimeOfDay
+                setter: setTimeOfDay
+            xml_attribute: true
+            type: string
+        userDefined:
+            expose: true
+            access_type: public_method
+            serialized_name: userDefined
+            accessor:
+                getter: getUserDefined
+                setter: setUserDefined
+            xml_attribute: true
+            type: string
+        ePortfolio:
+            expose: true
+            access_type: public_method
+            serialized_name: e-portfolio
+            accessor:
+                getter: getEPortfolio
+                setter: setEPortfolio
+            xml_attribute: true
+            type: boolean
+        teachingActivityID:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingActivityID
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingActivityID
+                setter: setTeachingActivityID
+            type: string
+        teachingActivityName:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingActivityName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingActivityName
+                setter: setTeachingActivityName
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+        admissionInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: admissionInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getAdmissionInfo
+                setter: setAdmissionInfo
+            type: CdmFr\Model\V1_1_1\Cdm\AdmissionInfo
+        timetableElement:
+            expose: true
+            access_type: public_method
+            serialized_name: timetableElement
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTimetableElement
+                setter: setTimetableElement
+            xml_list:
+                inline: true
+                entry_name: timetableElement
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\TimetableElement>
+        instructionLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: instructionLanguage
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInstructionLanguage
+                setter: setInstructionLanguage
+            type: CdmFr\Model\V1_1_1\Cdm\InstructionLanguage
+        contacts:
+            expose: true
+            access_type: public_method
+            serialized_name: contacts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getContacts
+                setter: setContacts
+            type: CdmFr\Model\V1_1_1\Cdm\Contacts
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock
+        teachingActivityStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingActivityStructure
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingActivityStructure
+                setter: setTeachingActivityStructure
+            type: CdmFr\Model\V1_1_1\Cdm\TeachingActivityType\TeachingActivityStructureAType

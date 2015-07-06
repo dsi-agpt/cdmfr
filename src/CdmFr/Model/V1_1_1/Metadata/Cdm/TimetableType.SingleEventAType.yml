@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\Cdm\TimetableType\SingleEventAType:
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getStart
+                setter: setStart
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateTimeType
+        end:
+            expose: true
+            access_type: public_method
+            serialized_name: end
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getEnd
+                setter: setEnd
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateTimeType

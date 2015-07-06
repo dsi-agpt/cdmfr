@@ -1,0 +1,13 @@
+CdmFr\Model\V1_1_1\CdmFr\PpalTeachingLanguage:
+    xml_root_name: ppalTeachingLanguage
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        teachingLang:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingLang
+            accessor:
+                getter: getTeachingLang
+                setter: setTeachingLang
+            xml_attribute: true
+            type: string

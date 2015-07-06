@@ -1,0 +1,52 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\HabiliRequestAType\HabiliTimingAType:
+    properties:
+        habiliCreatDate:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliCreatDate
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliCreatDate
+                setter: setHabiliCreatDate
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        habiliRenewDate:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliRenewDate
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliRenewDate
+                setter: setHabiliRenewDate
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        habiliOpeningWhishDate:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliOpeningWhishDate
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliOpeningWhishDate
+                setter: setHabiliOpeningWhishDate
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        habiliWishDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliWishDuration
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliWishDuration
+                setter: setHabiliWishDuration
+            type: integer
+        habiliValidDuration:
+            expose: true
+            access_type: public_method
+            serialized_name: habiliValidDuration
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabiliValidDuration
+                setter: setHabiliValidDuration
+            type: integer

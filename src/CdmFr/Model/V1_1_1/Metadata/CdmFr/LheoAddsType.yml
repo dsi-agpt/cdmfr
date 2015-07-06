@@ -1,0 +1,39 @@
+CdmFr\Model\V1_1_1\CdmFr\LheoAddsType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        ident:
+            expose: true
+            access_type: public_method
+            serialized_name: ident
+            accessor:
+                getter: getIdent
+                setter: setIdent
+            xml_attribute: true
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        sIRET:
+            expose: true
+            access_type: public_method
+            serialized_name: SIRET
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getSIRET
+                setter: setSIRET
+            type: CdmFr\Model\V1_1_1\Lheo\SIRETType

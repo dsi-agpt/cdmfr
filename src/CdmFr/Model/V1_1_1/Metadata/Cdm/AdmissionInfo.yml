@@ -1,0 +1,102 @@
+CdmFr\Model\V1_1_1\Cdm\AdmissionInfo:
+    xml_root_name: admissionInfo
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        admissionDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: admissionDescription
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getAdmissionDescription
+                setter: setAdmissionDescription
+            xml_list:
+                inline: true
+                entry_name: admissionDescription
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\AdmissionDescription>
+        studentStatus:
+            expose: true
+            access_type: public_method
+            serialized_name: studentStatus
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getStudentStatus
+                setter: setStudentStatus
+            type: CdmFr\Model\V1_1_1\CdmFr\StudentStatus
+        ectsRequired:
+            expose: true
+            access_type: public_method
+            serialized_name: ectsRequired
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getEctsRequired
+                setter: setEctsRequired
+            type: CdmFr\Model\V1_1_1\CdmFr\EctsRequired
+        studentPlaces:
+            expose: true
+            access_type: public_method
+            serialized_name: studentPlaces
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getStudentPlaces
+                setter: setStudentPlaces
+            type: array<CdmFr\Model\V1_1_1\Cdm\StudentPlaces>
+            xml_list:
+                inline: true
+                entry_name: studentPlaces
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+        teachingStart:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingStart
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingStart
+                setter: setTeachingStart
+            type: CdmFr\Model\V1_1_1\Cdm\TeachingStart
+        registrationDeadline:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationDeadline
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRegistrationDeadline
+                setter: setRegistrationDeadline
+            type: CdmFr\Model\V1_1_1\Cdm\RegistrationDeadline
+        cancelDeadline:
+            expose: true
+            access_type: public_method
+            serialized_name: cancelDeadline
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCancelDeadline
+                setter: setCancelDeadline
+            type: CdmFr\Model\V1_1_1\Cdm\CancelDeadline
+        registrationDetail:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationDetail
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRegistrationDetail
+                setter: setRegistrationDetail
+            type: CdmFr\Model\V1_1_1\CdmFr\RegistrationDetail
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            type: CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit

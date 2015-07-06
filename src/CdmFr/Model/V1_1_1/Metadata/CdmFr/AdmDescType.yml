@@ -1,0 +1,21 @@
+CdmFr\Model\V1_1_1\CdmFr\AdmDescType:
+    properties:
+        equiv:
+            expose: true
+            access_type: public_method
+            serialized_name: equiv
+            accessor:
+                getter: getEquiv
+                setter: setEquiv
+            xml_attribute: true
+            type: string
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType

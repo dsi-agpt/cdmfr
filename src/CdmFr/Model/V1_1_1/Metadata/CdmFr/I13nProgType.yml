@@ -1,0 +1,44 @@
+CdmFr\Model\V1_1_1\CdmFr\I13nProgType:
+    properties:
+        i13ProgPartner:
+            expose: true
+            access_type: public_method
+            serialized_name: i13ProgPartner
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getI13ProgPartner
+                setter: setI13ProgPartner
+            xml_list:
+                inline: true
+                entry_name: i13ProgPartner
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\PartnershipDataType>
+        i13ProgName:
+            expose: true
+            access_type: public_method
+            serialized_name: i13ProgName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getI13ProgName
+                setter: setI13ProgName
+            type: array<CdmFr\Model\V1_1_1\Cdm\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        i13ProgInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: i13ProgInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getI13ProgInfo
+                setter: setI13ProgInfo
+            xml_list:
+                inline: true
+                entry_name: i13ProgInfo
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>

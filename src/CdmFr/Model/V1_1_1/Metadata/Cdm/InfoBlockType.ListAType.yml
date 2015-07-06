@@ -1,0 +1,25 @@
+CdmFr\Model\V1_1_1\Cdm\InfoBlockType\ListAType:
+    properties:
+        listType:
+            expose: true
+            access_type: public_method
+            serialized_name: listType
+            accessor:
+                getter: getListType
+                setter: setListType
+            xml_attribute: true
+            type: string
+        listItem:
+            expose: true
+            access_type: public_method
+            serialized_name: listItem
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getListItem
+                setter: setListItem
+            xml_list:
+                inline: true
+                entry_name: listItem
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>

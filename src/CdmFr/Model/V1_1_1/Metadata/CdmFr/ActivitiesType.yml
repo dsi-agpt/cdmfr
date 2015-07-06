@@ -1,0 +1,11 @@
+CdmFr\Model\V1_1_1\CdmFr\ActivitiesType:
+    properties:
+        activitiesList:
+            expose: true
+            access_type: public_method
+            serialized_name: activitiesList
+            accessor:
+                getter: getActivitiesList
+                setter: setActivitiesList
+            xml_attribute: true
+            type: string

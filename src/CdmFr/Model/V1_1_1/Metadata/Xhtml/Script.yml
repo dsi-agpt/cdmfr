@@ -1,0 +1,67 @@
+CdmFr\Model\V1_1_1\Xhtml\Script:
+    xml_root_name: script
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        charset:
+            expose: true
+            access_type: public_method
+            serialized_name: charset
+            accessor:
+                getter: getCharset
+                setter: setCharset
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: \AnyType
+        src:
+            expose: true
+            access_type: public_method
+            serialized_name: src
+            accessor:
+                getter: getSrc
+                setter: setSrc
+            xml_attribute: true
+            type: string
+        defer:
+            expose: true
+            access_type: public_method
+            serialized_name: defer
+            accessor:
+                getter: getDefer
+                setter: setDefer
+            xml_attribute: true
+            type: string
+        space:
+            expose: true
+            access_type: public_method
+            serialized_name: space
+            accessor:
+                getter: getSpace
+                setter: setSpace
+            xml_attribute: true
+            type: string

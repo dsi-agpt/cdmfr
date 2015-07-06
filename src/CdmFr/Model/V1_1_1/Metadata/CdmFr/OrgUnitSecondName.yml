@@ -1,0 +1,27 @@
+CdmFr\Model\V1_1_1\CdmFr\OrgUnitSecondName:
+    xml_root_name: orgUnitSecondName
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        secondNameNature:
+            expose: true
+            access_type: public_method
+            serialized_name: secondNameNature
+            accessor:
+                getter: getSecondNameNature
+                setter: setSecondNameNature
+            xml_attribute: true
+            type: string
+        secondName:
+            expose: true
+            access_type: public_method
+            serialized_name: secondName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getSecondName
+                setter: setSecondName
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'

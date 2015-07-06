@@ -1,0 +1,247 @@
+CdmFr\Model\V1_1_1\Xhtml\Textarea:
+    xml_root_name: textarea
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            accessor:
+                getter: getClass
+                setter: setClass
+            xml_attribute: true
+            type: string
+        style:
+            expose: true
+            access_type: public_method
+            serialized_name: style
+            accessor:
+                getter: getStyle
+                setter: setStyle
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        dir:
+            expose: true
+            access_type: public_method
+            serialized_name: dir
+            accessor:
+                getter: getDir
+                setter: setDir
+            xml_attribute: true
+            type: string
+        onclick:
+            expose: true
+            access_type: public_method
+            serialized_name: onclick
+            accessor:
+                getter: getOnclick
+                setter: setOnclick
+            xml_attribute: true
+            type: string
+        ondblclick:
+            expose: true
+            access_type: public_method
+            serialized_name: ondblclick
+            accessor:
+                getter: getOndblclick
+                setter: setOndblclick
+            xml_attribute: true
+            type: string
+        onmousedown:
+            expose: true
+            access_type: public_method
+            serialized_name: onmousedown
+            accessor:
+                getter: getOnmousedown
+                setter: setOnmousedown
+            xml_attribute: true
+            type: string
+        onmouseup:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseup
+            accessor:
+                getter: getOnmouseup
+                setter: setOnmouseup
+            xml_attribute: true
+            type: string
+        onmouseover:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseover
+            accessor:
+                getter: getOnmouseover
+                setter: setOnmouseover
+            xml_attribute: true
+            type: string
+        onmousemove:
+            expose: true
+            access_type: public_method
+            serialized_name: onmousemove
+            accessor:
+                getter: getOnmousemove
+                setter: setOnmousemove
+            xml_attribute: true
+            type: string
+        onmouseout:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseout
+            accessor:
+                getter: getOnmouseout
+                setter: setOnmouseout
+            xml_attribute: true
+            type: string
+        onkeypress:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeypress
+            accessor:
+                getter: getOnkeypress
+                setter: setOnkeypress
+            xml_attribute: true
+            type: string
+        onkeydown:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeydown
+            accessor:
+                getter: getOnkeydown
+                setter: setOnkeydown
+            xml_attribute: true
+            type: string
+        onkeyup:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeyup
+            accessor:
+                getter: getOnkeyup
+                setter: setOnkeyup
+            xml_attribute: true
+            type: string
+        accesskey:
+            expose: true
+            access_type: public_method
+            serialized_name: accesskey
+            accessor:
+                getter: getAccesskey
+                setter: setAccesskey
+            xml_attribute: true
+            type: string
+        tabindex:
+            expose: true
+            access_type: public_method
+            serialized_name: tabindex
+            accessor:
+                getter: getTabindex
+                setter: setTabindex
+            xml_attribute: true
+            type: integer
+        onfocus:
+            expose: true
+            access_type: public_method
+            serialized_name: onfocus
+            accessor:
+                getter: getOnfocus
+                setter: setOnfocus
+            xml_attribute: true
+            type: string
+        onblur:
+            expose: true
+            access_type: public_method
+            serialized_name: onblur
+            accessor:
+                getter: getOnblur
+                setter: setOnblur
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: \AnyType
+        rows:
+            expose: true
+            access_type: public_method
+            serialized_name: rows
+            accessor:
+                getter: getRows
+                setter: setRows
+            xml_attribute: true
+            type: integer
+        cols:
+            expose: true
+            access_type: public_method
+            serialized_name: cols
+            accessor:
+                getter: getCols
+                setter: setCols
+            xml_attribute: true
+            type: integer
+        disabled:
+            expose: true
+            access_type: public_method
+            serialized_name: disabled
+            accessor:
+                getter: getDisabled
+                setter: setDisabled
+            xml_attribute: true
+            type: string
+        readonly:
+            expose: true
+            access_type: public_method
+            serialized_name: readonly
+            accessor:
+                getter: getReadonly
+                setter: setReadonly
+            xml_attribute: true
+            type: string
+        onselect:
+            expose: true
+            access_type: public_method
+            serialized_name: onselect
+            accessor:
+                getter: getOnselect
+                setter: setOnselect
+            xml_attribute: true
+            type: string
+        onchange:
+            expose: true
+            access_type: public_method
+            serialized_name: onchange
+            accessor:
+                getter: getOnchange
+                setter: setOnchange
+            xml_attribute: true
+            type: string

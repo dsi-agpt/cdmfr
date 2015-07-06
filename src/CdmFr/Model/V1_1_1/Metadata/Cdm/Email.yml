@@ -1,0 +1,12 @@
+CdmFr\Model\V1_1_1\Cdm\Email:
+    xml_root_name: email
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string

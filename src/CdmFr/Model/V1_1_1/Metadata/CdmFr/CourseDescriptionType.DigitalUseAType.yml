@@ -1,0 +1,46 @@
+CdmFr\Model\V1_1_1\CdmFr\CourseDescriptionType\DigitalUseAType:
+    properties:
+        percentage:
+            expose: true
+            access_type: public_method
+            serialized_name: percentage
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getPercentage
+                setter: setPercentage
+            type: integer
+        lcms:
+            expose: true
+            access_type: public_method
+            serialized_name: lcms
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLcms
+                setter: setLcms
+            type: CdmFr\Model\V1_1_1\CdmFr\LcmsType
+        activities:
+            expose: true
+            access_type: public_method
+            serialized_name: activities
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getActivities
+                setter: setActivities
+            xml_list:
+                inline: true
+                entry_name: activities
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\ActivitiesType>
+        prodPeda:
+            expose: true
+            access_type: public_method
+            serialized_name: prodPeda
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getProdPeda
+                setter: setProdPeda
+            type: CdmFr\Model\V1_1_1\CdmFr\CourseDescriptionType\DigitalUseAType\ProdPedaAType

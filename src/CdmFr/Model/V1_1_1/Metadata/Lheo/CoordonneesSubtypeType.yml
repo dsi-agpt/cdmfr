@@ -1,0 +1,120 @@
+CdmFr\Model\V1_1_1\Lheo\CoordonneesSubtypeType:
+    properties:
+        civilite:
+            expose: true
+            access_type: public_method
+            serialized_name: civilite
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCivilite
+                setter: setCivilite
+            type: CdmFr\Model\V1_1_1\Lheo\Civilite
+        nom:
+            expose: true
+            access_type: public_method
+            serialized_name: nom
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNom
+                setter: setNom
+            type: CdmFr\Model\V1_1_1\Lheo\Nom
+        prenom:
+            expose: true
+            access_type: public_method
+            serialized_name: prenom
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPrenom
+                setter: setPrenom
+            type: CdmFr\Model\V1_1_1\Lheo\Prenom
+        ligne:
+            expose: true
+            access_type: public_method
+            serialized_name: ligne
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getLigne
+                setter: setLigne
+            xml_list:
+                inline: true
+                entry_name: ligne
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Ligne>
+        adresse:
+            expose: true
+            access_type: public_method
+            serialized_name: adresse
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getAdresse
+                setter: setAdresse
+            type: CdmFr\Model\V1_1_1\Lheo\Adresse
+        telfixe:
+            expose: true
+            access_type: public_method
+            serialized_name: telfixe
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getTelfixe
+                setter: setTelfixe
+            type: CdmFr\Model\V1_1_1\Lheo\Telfixe
+        portable:
+            expose: true
+            access_type: public_method
+            serialized_name: portable
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPortable
+                setter: setPortable
+            type: CdmFr\Model\V1_1_1\Lheo\Portable
+        fax:
+            expose: true
+            access_type: public_method
+            serialized_name: fax
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getFax
+                setter: setFax
+            type: CdmFr\Model\V1_1_1\Lheo\Fax
+        courriel:
+            expose: true
+            access_type: public_method
+            serialized_name: courriel
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCourriel
+                setter: setCourriel
+            type: CdmFr\Model\V1_1_1\Lheo\Courriel
+        web:
+            expose: true
+            access_type: public_method
+            serialized_name: web
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getWeb
+                setter: setWeb
+            type: CdmFr\Model\V1_1_1\Lheo\Web
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

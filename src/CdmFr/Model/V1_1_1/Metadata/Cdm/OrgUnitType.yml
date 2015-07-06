@@ -1,0 +1,393 @@
+CdmFr\Model\V1_1_1\Cdm\OrgUnitType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        ident:
+            expose: true
+            access_type: public_method
+            serialized_name: ident
+            accessor:
+                getter: getIdent
+                setter: setIdent
+            xml_attribute: true
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        orgUnitID:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitID
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitID
+                setter: setOrgUnitID
+            xml_list:
+                inline: true
+                entry_name: orgUnitID
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        orgUnitName:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitName
+                setter: setOrgUnitName
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+        orgUnitSecondName:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitSecondName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitSecondName
+                setter: setOrgUnitSecondName
+            xml_list:
+                inline: true
+                entry_name: orgUnitSecondName
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\OrgUnitSecondName>
+        orgUnitAcronym:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitAcronym
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitAcronym
+                setter: setOrgUnitAcronym
+            xml_list:
+                inline: true
+                entry_name: orgUnitAcronym
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        orgUnitCode:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitCode
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitCode
+                setter: setOrgUnitCode
+            xml_list:
+                inline: true
+                entry_name: orgUnitCode
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\OrgUnitType\OrgUnitCodeAType>
+        orgUnitKind:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitKind
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitKind
+                setter: setOrgUnitKind
+            xml_list:
+                inline: true
+                entry_name: orgUnitKind
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\OrgUnitType\OrgUnitKindAType>
+        webLink:
+            expose: true
+            access_type: public_method
+            serialized_name: webLink
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getWebLink
+                setter: setWebLink
+            xml_list:
+                inline: true
+                entry_name: webLink
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\WebLink>
+        orgUnitIntroduction:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitIntroduction
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitIntroduction
+                setter: setOrgUnitIntroduction
+            xml_list:
+                inline: true
+                entry_name: orgUnitIntroduction
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        orgUnitDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitDescription
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitDescription
+                setter: setOrgUnitDescription
+            xml_list:
+                inline: true
+                entry_name: orgUnitDescription
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        admissionInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: admissionInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getAdmissionInfo
+                setter: setAdmissionInfo
+            xml_list:
+                inline: true
+                entry_name: admissionInfo
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\AdmissionInfo>
+        regulations:
+            expose: true
+            access_type: public_method
+            serialized_name: regulations
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRegulations
+                setter: setRegulations
+            xml_list:
+                inline: true
+                entry_name: regulations
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Regulations>
+        expenses:
+            expose: true
+            access_type: public_method
+            serialized_name: expenses
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getExpenses
+                setter: setExpenses
+            xml_list:
+                inline: true
+                entry_name: expenses
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Expenses>
+        studentFacilities:
+            expose: true
+            access_type: public_method
+            serialized_name: studentFacilities
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getStudentFacilities
+                setter: setStudentFacilities
+            xml_list:
+                inline: true
+                entry_name: studentFacilities
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\StudentFacilities>
+        universalAdjustment:
+            expose: true
+            access_type: public_method
+            serialized_name: universalAdjustment
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getUniversalAdjustment
+                setter: setUniversalAdjustment
+            xml_list:
+                inline: true
+                entry_name: universalAdjustment
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\UniversalAdjustment>
+        contacts:
+            expose: true
+            access_type: public_method
+            serialized_name: contacts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getContacts
+                setter: setContacts
+            xml_list:
+                inline: true
+                entry_name: contacts
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Contacts>
+        orgUnitAip:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnitAip
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnitAip
+                setter: setOrgUnitAip
+            xml_list:
+                inline: true
+                entry_name: orgUnitAip
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\OrgUnitAip>
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            xml_list:
+                inline: true
+                entry_name: infoBlock
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlock>
+        program:
+            expose: true
+            access_type: public_method
+            serialized_name: program
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getProgram
+                setter: setProgram
+            xml_list:
+                inline: true
+                entry_name: program
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Program>
+        refProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: refProgram
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefProgram
+                setter: setRefProgram
+            xml_list:
+                inline: true
+                entry_name: refProgram
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefProgram>
+        course:
+            expose: true
+            access_type: public_method
+            serialized_name: course
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourse
+                setter: setCourse
+            xml_list:
+                inline: true
+                entry_name: course
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Course>
+        refCourse:
+            expose: true
+            access_type: public_method
+            serialized_name: refCourse
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefCourse
+                setter: setRefCourse
+            xml_list:
+                inline: true
+                entry_name: refCourse
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefCourse>
+        person:
+            expose: true
+            access_type: public_method
+            serialized_name: person
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPerson
+                setter: setPerson
+            xml_list:
+                inline: true
+                entry_name: person
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Person>
+        refPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: refPerson
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefPerson
+                setter: setRefPerson
+            xml_list:
+                inline: true
+                entry_name: refPerson
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefPerson>
+        orgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: orgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOrgUnit
+                setter: setOrgUnit
+            xml_list:
+                inline: true
+                entry_name: orgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\OrgUnit>
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefOrgUnit>
+        searchword:
+            expose: true
+            access_type: public_method
+            serialized_name: searchword
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getSearchword
+                setter: setSearchword
+            xml_list:
+                inline: true
+                entry_name: searchword
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>

@@ -1,0 +1,31 @@
+CdmFr\Model\V1_1_1\Xhtml\Base:
+    xml_root_name: base
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        href:
+            expose: true
+            access_type: public_method
+            serialized_name: href
+            accessor:
+                getter: getHref
+                setter: setHref
+            xml_attribute: true
+            type: string
+        target:
+            expose: true
+            access_type: public_method
+            serialized_name: target
+            accessor:
+                getter: getTarget
+                setter: setTarget
+            xml_attribute: true
+            type: string

@@ -1,0 +1,11 @@
+CdmFr\Model\V1_1_1\Cdm\TimetableType\ReoccurringEventsAType\OccurrenceRuleAType:
+    properties:
+        weekday:
+            expose: true
+            access_type: public_method
+            serialized_name: weekday
+            accessor:
+                getter: getWeekday
+                setter: setWeekday
+            xml_attribute: true
+            type: string

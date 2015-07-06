@@ -1,0 +1,35 @@
+CdmFr\Model\V1_1_1\CdmFr\PartnershipDataType\CountryAType:
+    properties:
+        countryCode:
+            expose: true
+            access_type: public_method
+            serialized_name: countryCode
+            accessor:
+                getter: getCountryCode
+                setter: setCountryCode
+            xml_attribute: true
+            type: string
+        alternative:
+            expose: true
+            access_type: public_method
+            serialized_name: alternative
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getAlternative
+                setter: setAlternative
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+        countryName:
+            expose: true
+            access_type: public_method
+            serialized_name: countryName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCountryName
+                setter: setCountryName
+            type: string

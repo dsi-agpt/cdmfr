@@ -1,0 +1,24 @@
+CdmFr\Model\V1_1_1\CdmFr\RegistrationDetail:
+    xml_root_name: registrationDetail
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        registrationProcess:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationProcess
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRegistrationProcess
+                setter: setRegistrationProcess
+            type: CdmFr\Model\V1_1_1\CdmFr\RegistrationDetail\RegistrationProcessAType
+        registrationStart:
+            expose: true
+            access_type: public_method
+            serialized_name: registrationStart
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRegistrationStart
+                setter: setRegistrationStart
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateTimeType

@@ -1,0 +1,25 @@
+CdmFr\Model\V1_1_1\CdmFr\CohabilitationType\ListOfOrgUnitAType:
+    properties:
+        cohabilitationRole:
+            expose: true
+            access_type: public_method
+            serialized_name: cohabilitationRole
+            accessor:
+                getter: getCohabilitationRole
+                setter: setCohabilitationRole
+            xml_attribute: true
+            type: string
+        habOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: habOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHabOrgUnit
+                setter: setHabOrgUnit
+            xml_list:
+                inline: true
+                entry_name: habOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\CohabilitationType\ListOfOrgUnitAType\HabOrgUnitAType>

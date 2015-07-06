@@ -1,0 +1,30 @@
+CdmFr\Model\V1_1_1\Lheo\WebSubtypeType:
+    properties:
+        urlweb:
+            expose: true
+            access_type: public_method
+            serialized_name: urlweb
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getUrlweb
+                setter: setUrlweb
+            xml_list:
+                inline: true
+                entry_name: urlweb
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Urlweb>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

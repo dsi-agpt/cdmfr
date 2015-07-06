@@ -1,0 +1,29 @@
+CdmFr\Model\V1_1_1\Cdm\ProgramType\AType\AType\RomeDataAType:
+    properties:
+        romeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: romeCode
+            accessor:
+                getter: getRomeCode
+                setter: setRomeCode
+            xml_attribute: true
+            type: string
+        romeLibel:
+            expose: true
+            access_type: public_method
+            serialized_name: romeLibel
+            accessor:
+                getter: getRomeLibel
+                setter: setRomeLibel
+            xml_attribute: true
+            type: string
+        sspCode:
+            expose: true
+            access_type: public_method
+            serialized_name: sspCode
+            accessor:
+                getter: getSspCode
+                setter: setSspCode
+            xml_attribute: true
+            type: string

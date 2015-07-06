@@ -1,0 +1,30 @@
+CdmFr\Model\V1_1_1\Lheo\ResumesOffresSubtypeType:
+    properties:
+        resumeOffre:
+            expose: true
+            access_type: public_method
+            serialized_name: resume-offre
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getResumeOffre
+                setter: setResumeOffre
+            xml_list:
+                inline: true
+                entry_name: resume-offre
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\ResumeOffre>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

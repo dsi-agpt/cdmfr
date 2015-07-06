@@ -1,0 +1,25 @@
+CdmFr\Model\V1_1_1\CdmFr\CourseDescriptionType\CourseContentsECAType:
+    properties:
+        nature:
+            expose: true
+            access_type: public_method
+            serialized_name: nature
+            accessor:
+                getter: getNature
+                setter: setNature
+            xml_attribute: true
+            type: string
+        refCourse:
+            expose: true
+            access_type: public_method
+            serialized_name: refCourse
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefCourse
+                setter: setRefCourse
+            xml_list:
+                inline: true
+                entry_name: refCourse
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefCourse>

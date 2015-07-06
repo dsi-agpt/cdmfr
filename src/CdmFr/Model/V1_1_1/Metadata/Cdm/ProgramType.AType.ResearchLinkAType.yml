@@ -1,0 +1,16 @@
+CdmFr\Model\V1_1_1\Cdm\ProgramType\AType\ResearchLinkAType:
+    properties:
+        relatedOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: relatedOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRelatedOrgUnit
+                setter: setRelatedOrgUnit
+            xml_list:
+                inline: true
+                entry_name: relatedOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\ProgramType\AType\ResearchLinkAType\RelatedOrgUnitAType>

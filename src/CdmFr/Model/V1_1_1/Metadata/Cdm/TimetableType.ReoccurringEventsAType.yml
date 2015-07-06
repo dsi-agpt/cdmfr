@@ -1,0 +1,52 @@
+CdmFr\Model\V1_1_1\Cdm\TimetableType\ReoccurringEventsAType:
+    properties:
+        occurrenceRule:
+            expose: true
+            access_type: public_method
+            serialized_name: occurrenceRule
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOccurrenceRule
+                setter: setOccurrenceRule
+            type: CdmFr\Model\V1_1_1\Cdm\TimetableType\ReoccurringEventsAType\OccurrenceRuleAType
+        dateFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: dateFrom
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getDateFrom
+                setter: setDateFrom
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        dateTo:
+            expose: true
+            access_type: public_method
+            serialized_name: dateTo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getDateTo
+                setter: setDateTo
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        timeFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: timeFrom
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTimeFrom
+                setter: setTimeFrom
+            type: CdmFr\Model\V1_1_1\Cdm\CDMtimeType
+        timeTo:
+            expose: true
+            access_type: public_method
+            serialized_name: timeTo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTimeTo
+                setter: setTimeTo
+            type: CdmFr\Model\V1_1_1\Cdm\CDMtimeType

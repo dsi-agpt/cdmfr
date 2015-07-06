@@ -1,0 +1,3 @@
+CdmFr\Model\V1_1_1\Cdm\FormalPrerequisites:
+    xml_root_name: formalPrerequisites
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'

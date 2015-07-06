@@ -1,0 +1,16 @@
+CdmFr\Model\V1_1_1\CdmFr\TextType:
+    properties:
+        text:
+            expose: true
+            access_type: public_method
+            serialized_name: text
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getText
+                setter: setText
+            xml_list:
+                inline: true
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\TextType\TextAType>

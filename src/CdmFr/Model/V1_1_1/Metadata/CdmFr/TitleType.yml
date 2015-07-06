@@ -1,0 +1,11 @@
+CdmFr\Model\V1_1_1\CdmFr\TitleType:
+    properties:
+        corps:
+            expose: true
+            access_type: public_method
+            serialized_name: corps
+            accessor:
+                getter: getCorps
+                setter: setCorps
+            xml_attribute: true
+            type: string

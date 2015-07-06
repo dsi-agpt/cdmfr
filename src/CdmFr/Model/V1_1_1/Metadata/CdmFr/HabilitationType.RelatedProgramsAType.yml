@@ -1,0 +1,40 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\RelatedProgramsAType:
+    properties:
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit>
+        refProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: refProgram
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefProgram
+                setter: setRefProgram
+            xml_list:
+                inline: true
+                entry_name: refProgram
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefProgram>
+        relationInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: relationInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRelationInfo
+                setter: setRelationInfo
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType

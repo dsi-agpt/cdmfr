@@ -1,0 +1,357 @@
+CdmFr\Model\V1_1_1\Xhtml\Object:
+    xml_root_name: object
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            accessor:
+                getter: getClass
+                setter: setClass
+            xml_attribute: true
+            type: string
+        style:
+            expose: true
+            access_type: public_method
+            serialized_name: style
+            accessor:
+                getter: getStyle
+                setter: setStyle
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        lang:
+            expose: true
+            access_type: public_method
+            serialized_name: lang
+            accessor:
+                getter: getLang
+                setter: setLang
+            xml_attribute: true
+            type: string
+        dir: null
+        onclick:
+            expose: true
+            access_type: public_method
+            serialized_name: onclick
+            accessor:
+                getter: getOnclick
+                setter: setOnclick
+            xml_attribute: true
+            type: string
+        ondblclick:
+            expose: true
+            access_type: public_method
+            serialized_name: ondblclick
+            accessor:
+                getter: getOndblclick
+                setter: setOndblclick
+            xml_attribute: true
+            type: string
+        onmousedown:
+            expose: true
+            access_type: public_method
+            serialized_name: onmousedown
+            accessor:
+                getter: getOnmousedown
+                setter: setOnmousedown
+            xml_attribute: true
+            type: string
+        onmouseup:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseup
+            accessor:
+                getter: getOnmouseup
+                setter: setOnmouseup
+            xml_attribute: true
+            type: string
+        onmouseover:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseover
+            accessor:
+                getter: getOnmouseover
+                setter: setOnmouseover
+            xml_attribute: true
+            type: string
+        onmousemove:
+            expose: true
+            access_type: public_method
+            serialized_name: onmousemove
+            accessor:
+                getter: getOnmousemove
+                setter: setOnmousemove
+            xml_attribute: true
+            type: string
+        onmouseout:
+            expose: true
+            access_type: public_method
+            serialized_name: onmouseout
+            accessor:
+                getter: getOnmouseout
+                setter: setOnmouseout
+            xml_attribute: true
+            type: string
+        onkeypress:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeypress
+            accessor:
+                getter: getOnkeypress
+                setter: setOnkeypress
+            xml_attribute: true
+            type: string
+        onkeydown:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeydown
+            accessor:
+                getter: getOnkeydown
+                setter: setOnkeydown
+            xml_attribute: true
+            type: string
+        onkeyup:
+            expose: true
+            access_type: public_method
+            serialized_name: onkeyup
+            accessor:
+                getter: getOnkeyup
+                setter: setOnkeyup
+            xml_attribute: true
+            type: string
+        declare:
+            expose: true
+            access_type: public_method
+            serialized_name: declare
+            accessor:
+                getter: getDeclare
+                setter: setDeclare
+            xml_attribute: true
+            type: string
+        classid:
+            expose: true
+            access_type: public_method
+            serialized_name: classid
+            accessor:
+                getter: getClassid
+                setter: setClassid
+            xml_attribute: true
+            type: string
+        codebase:
+            expose: true
+            access_type: public_method
+            serialized_name: codebase
+            accessor:
+                getter: getCodebase
+                setter: setCodebase
+            xml_attribute: true
+            type: string
+        data:
+            expose: true
+            access_type: public_method
+            serialized_name: data
+            accessor:
+                getter: getData
+                setter: setData
+            xml_attribute: true
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: type
+            accessor:
+                getter: getType
+                setter: setType
+            xml_attribute: true
+            type: string
+        codetype:
+            expose: true
+            access_type: public_method
+            serialized_name: codetype
+            accessor:
+                getter: getCodetype
+                setter: setCodetype
+            xml_attribute: true
+            type: string
+        archive:
+            expose: true
+            access_type: public_method
+            serialized_name: archive
+            accessor:
+                getter: getArchive
+                setter: setArchive
+            xml_attribute: true
+            type: string
+        standby:
+            expose: true
+            access_type: public_method
+            serialized_name: standby
+            accessor:
+                getter: getStandby
+                setter: setStandby
+            xml_attribute: true
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            xml_attribute: true
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            xml_attribute: true
+            type: string
+        usemap:
+            expose: true
+            access_type: public_method
+            serialized_name: usemap
+            accessor:
+                getter: getUsemap
+                setter: setUsemap
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        tabindex:
+            expose: true
+            access_type: public_method
+            serialized_name: tabindex
+            accessor:
+                getter: getTabindex
+                setter: setTabindex
+            xml_attribute: true
+            type: integer
+        align:
+            expose: true
+            access_type: public_method
+            serialized_name: align
+            accessor:
+                getter: getAlign
+                setter: setAlign
+            xml_attribute: true
+            type: string
+        border:
+            expose: true
+            access_type: public_method
+            serialized_name: border
+            accessor:
+                getter: getBorder
+                setter: setBorder
+            xml_attribute: true
+            type: integer
+        hspace:
+            expose: true
+            access_type: public_method
+            serialized_name: hspace
+            accessor:
+                getter: getHspace
+                setter: setHspace
+            xml_attribute: true
+            type: integer
+        vspace:
+            expose: true
+            access_type: public_method
+            serialized_name: vspace
+            accessor:
+                getter: getVspace
+                setter: setVspace
+            xml_attribute: true
+            type: integer
+        param: null
+        p: null
+        h1: null
+        h2: null
+        h3: null
+        h4: null
+        h5: null
+        h6: null
+        div: null
+        ul: null
+        ol: null
+        dl: null
+        menu: null
+        pre: null
+        hr: null
+        blockquote: null
+        address: null
+        center: null
+        noframes: null
+        isindex: null
+        fieldset: null
+        table: null
+        form: null
+        a: null
+        br: null
+        span: null
+        bdo: null
+        object: null
+        applet: null
+        img: null
+        map: null
+        iframe: null
+        tt: null
+        i: null
+        b: null
+        u: null
+        s: null
+        strike: null
+        big: null
+        small: null
+        font: null
+        basefont: null
+        em: null
+        strong: null
+        dfn: null
+        code: null
+        q: null
+        samp: null
+        kbd: null
+        var: null
+        cite: null
+        abbr: null
+        acronym: null
+        sub: null
+        sup: null
+        input: null
+        select: null
+        textarea: null
+        label: null
+        button: null
+        noscript: null
+        ins: null
+        del: null
+        script: null

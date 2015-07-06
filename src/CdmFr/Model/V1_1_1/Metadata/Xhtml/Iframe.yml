@@ -1,0 +1,130 @@
+CdmFr\Model\V1_1_1\Xhtml\Iframe:
+    xml_root_name: iframe
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        class:
+            expose: true
+            access_type: public_method
+            serialized_name: class
+            accessor:
+                getter: getClass
+                setter: setClass
+            xml_attribute: true
+            type: string
+        style:
+            expose: true
+            access_type: public_method
+            serialized_name: style
+            accessor:
+                getter: getStyle
+                setter: setStyle
+            xml_attribute: true
+            type: string
+        title:
+            expose: true
+            access_type: public_method
+            serialized_name: title
+            accessor:
+                getter: getTitle
+                setter: setTitle
+            xml_attribute: true
+            type: string
+        longdesc:
+            expose: true
+            access_type: public_method
+            serialized_name: longdesc
+            accessor:
+                getter: getLongdesc
+                setter: setLongdesc
+            xml_attribute: true
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: name
+            accessor:
+                getter: getName
+                setter: setName
+            xml_attribute: true
+            type: string
+        src:
+            expose: true
+            access_type: public_method
+            serialized_name: src
+            accessor:
+                getter: getSrc
+                setter: setSrc
+            xml_attribute: true
+            type: string
+        frameborder:
+            expose: true
+            access_type: public_method
+            serialized_name: frameborder
+            accessor:
+                getter: getFrameborder
+                setter: setFrameborder
+            xml_attribute: true
+            type: string
+        marginwidth:
+            expose: true
+            access_type: public_method
+            serialized_name: marginwidth
+            accessor:
+                getter: getMarginwidth
+                setter: setMarginwidth
+            xml_attribute: true
+            type: integer
+        marginheight:
+            expose: true
+            access_type: public_method
+            serialized_name: marginheight
+            accessor:
+                getter: getMarginheight
+                setter: setMarginheight
+            xml_attribute: true
+            type: integer
+        scrolling:
+            expose: true
+            access_type: public_method
+            serialized_name: scrolling
+            accessor:
+                getter: getScrolling
+                setter: setScrolling
+            xml_attribute: true
+            type: string
+        align:
+            expose: true
+            access_type: public_method
+            serialized_name: align
+            accessor:
+                getter: getAlign
+                setter: setAlign
+            xml_attribute: true
+            type: string
+        height:
+            expose: true
+            access_type: public_method
+            serialized_name: height
+            accessor:
+                getter: getHeight
+                setter: setHeight
+            xml_attribute: true
+            type: string
+        width:
+            expose: true
+            access_type: public_method
+            serialized_name: width
+            accessor:
+                getter: getWidth
+                setter: setWidth
+            xml_attribute: true
+            type: string

@@ -1,0 +1,32 @@
+CdmFr\Model\V1_1_1\CdmFr\CohabilitationType:
+    properties:
+        exists:
+            expose: true
+            access_type: public_method
+            serialized_name: exists
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExists
+                setter: setExists
+            type: boolean
+        listOfOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: listOfOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getListOfOrgUnit
+                setter: setListOfOrgUnit
+            type: CdmFr\Model\V1_1_1\CdmFr\CohabilitationType\ListOfOrgUnitAType
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock

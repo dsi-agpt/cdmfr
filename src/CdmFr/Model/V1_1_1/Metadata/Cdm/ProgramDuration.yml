@@ -1,0 +1,58 @@
+CdmFr\Model\V1_1_1\Cdm\ProgramDuration:
+    xml_root_name: programDuration
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        start:
+            expose: true
+            access_type: public_method
+            serialized_name: start
+            accessor:
+                getter: getStart
+                setter: setStart
+            xml_attribute: true
+            type: 'DateTime<''Y-m-d''>'
+        duration:
+            expose: true
+            access_type: public_method
+            serialized_name: duration
+            accessor:
+                getter: getDuration
+                setter: setDuration
+            xml_attribute: true
+            type: DateInterval
+        semester:
+            expose: true
+            access_type: public_method
+            serialized_name: semester
+            accessor:
+                getter: getSemester
+                setter: setSemester
+            xml_attribute: true
+            type: integer
+        studyPace:
+            expose: true
+            access_type: public_method
+            serialized_name: studyPace
+            accessor:
+                getter: getStudyPace
+                setter: setStudyPace
+            xml_attribute: true
+            type: string
+        timeOfDay:
+            expose: true
+            access_type: public_method
+            serialized_name: timeOfDay
+            accessor:
+                getter: getTimeOfDay
+                setter: setTimeOfDay
+            xml_attribute: true
+            type: string
+        term:
+            expose: true
+            access_type: public_method
+            serialized_name: term
+            accessor:
+                getter: getTerm
+                setter: setTerm
+            xml_attribute: true
+            type: string

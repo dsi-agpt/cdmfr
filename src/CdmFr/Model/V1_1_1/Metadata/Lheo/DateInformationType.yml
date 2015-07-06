@@ -1,0 +1,47 @@
+CdmFr\Model\V1_1_1\Lheo\DateInformationType:
+    properties:
+        numero:
+            expose: true
+            access_type: public_method
+            serialized_name: numero
+            accessor:
+                getter: getNumero
+                setter: setNumero
+            xml_attribute: true
+            type: string
+        info:
+            expose: true
+            access_type: public_method
+            serialized_name: info
+            accessor:
+                getter: getInfo
+                setter: setInfo
+            xml_attribute: true
+            type: string
+        ref:
+            expose: true
+            access_type: public_method
+            serialized_name: ref
+            accessor:
+                getter: getRef
+                setter: setRef
+            xml_attribute: true
+            type: string
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        tag:
+            expose: true
+            access_type: public_method
+            serialized_name: tag
+            accessor:
+                getter: getTag
+                setter: setTag
+            xml_attribute: true
+            type: string

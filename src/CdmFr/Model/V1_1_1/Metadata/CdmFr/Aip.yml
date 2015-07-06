@@ -1,0 +1,60 @@
+CdmFr\Model\V1_1_1\CdmFr\Aip:
+    xml_root_name: aip
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        possibleFollowUp:
+            expose: true
+            access_type: public_method
+            serialized_name: possibleFollowUp
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getPossibleFollowUp
+                setter: setPossibleFollowUp
+            xml_list:
+                inline: true
+                entry_name: possibleFollowUp
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        successSupport:
+            expose: true
+            access_type: public_method
+            serialized_name: successSupport
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getSuccessSupport
+                setter: setSuccessSupport
+            xml_list:
+                inline: true
+                entry_name: successSupport
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        learningPathStrategySupport:
+            expose: true
+            access_type: public_method
+            serialized_name: learningPathStrategySupport
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLearningPathStrategySupport
+                setter: setLearningPathStrategySupport
+            xml_list:
+                inline: true
+                entry_name: learningPathStrategySupport
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        professTrainingSupport:
+            expose: true
+            access_type: public_method
+            serialized_name: professTrainingSupport
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getProfessTrainingSupport
+                setter: setProfessTrainingSupport
+            xml_list:
+                inline: true
+                entry_name: professTrainingSupport
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>

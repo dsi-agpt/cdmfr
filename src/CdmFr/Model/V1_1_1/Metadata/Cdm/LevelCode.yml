@@ -1,0 +1,21 @@
+CdmFr\Model\V1_1_1\Cdm\LevelCode:
+    xml_root_name: levelCode
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        codeSet:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSet
+            accessor:
+                getter: getCodeSet
+                setter: setCodeSet
+            xml_attribute: true
+            type: string

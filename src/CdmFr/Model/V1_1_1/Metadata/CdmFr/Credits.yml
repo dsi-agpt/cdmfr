@@ -1,0 +1,55 @@
+CdmFr\Model\V1_1_1\CdmFr\Credits:
+    xml_root_name: credits
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        eCTScredits:
+            expose: true
+            access_type: public_method
+            serialized_name: ECTScredits
+            accessor:
+                getter: getECTScredits
+                setter: setECTScredits
+            xml_attribute: true
+            type: float
+        hoursPerWeek:
+            expose: true
+            access_type: public_method
+            serialized_name: hoursPerWeek
+            accessor:
+                getter: getHoursPerWeek
+                setter: setHoursPerWeek
+            xml_attribute: true
+            type: float
+        totalWorkLoad:
+            expose: true
+            access_type: public_method
+            serialized_name: totalWorkLoad
+            accessor:
+                getter: getTotalWorkLoad
+                setter: setTotalWorkLoad
+            xml_attribute: true
+            type: float
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock
+        globalVolume:
+            expose: true
+            access_type: public_method
+            serialized_name: globalVolume
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getGlobalVolume
+                setter: setGlobalVolume
+            xml_list:
+                inline: true
+                entry_name: globalVolume
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\GlobalVolumeType>

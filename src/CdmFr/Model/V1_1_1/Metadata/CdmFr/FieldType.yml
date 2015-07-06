@@ -1,0 +1,69 @@
+CdmFr\Model\V1_1_1\CdmFr\FieldType:
+    properties:
+        fieldPurpose:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldPurpose
+            accessor:
+                getter: getFieldPurpose
+                setter: setFieldPurpose
+            xml_attribute: true
+            type: string
+        fieldName:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getFieldName
+                setter: setFieldName
+            type: CdmFr\Model\V1_1_1\CdmFr\FieldType\FieldNameAType
+        speciality:
+            expose: true
+            access_type: public_method
+            serialized_name: speciality
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getSpeciality
+                setter: setSpeciality
+            xml_list:
+                inline: true
+                entry_name: speciality
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\SpecialityType>
+        refSpeciality:
+            expose: true
+            access_type: public_method
+            serialized_name: refSpeciality
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefSpeciality
+                setter: setRefSpeciality
+            xml_list:
+                inline: true
+                entry_name: refSpeciality
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\RefSpeciality>
+        fieldTimingInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldTimingInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getFieldTimingInfo
+                setter: setFieldTimingInfo
+            type: CdmFr\Model\V1_1_1\CdmFr\TimingInfoType
+        fieldInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getFieldInfo
+                setter: setFieldInfo
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType

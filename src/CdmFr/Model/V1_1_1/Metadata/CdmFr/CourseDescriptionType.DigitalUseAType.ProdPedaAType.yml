@@ -1,0 +1,22 @@
+CdmFr\Model\V1_1_1\CdmFr\CourseDescriptionType\DigitalUseAType\ProdPedaAType:
+    properties:
+        digitProdPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: digitProdPercentage
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDigitProdPercentage
+                setter: setDigitProdPercentage
+            type: integer
+        digitProdUNTPercentage:
+            expose: true
+            access_type: public_method
+            serialized_name: digitProdUNTPercentage
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDigitProdUNTPercentage
+                setter: setDigitProdUNTPercentage
+            type: integer

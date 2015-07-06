@@ -1,0 +1,13 @@
+CdmFr\Model\V1_1_1\CdmFr\StudentStatus:
+    xml_root_name: studentStatus
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        studentStatusValueType:
+            expose: true
+            access_type: public_method
+            serialized_name: studentStatusValueType
+            accessor:
+                getter: getStudentStatusValueType
+                setter: setStudentStatusValueType
+            xml_attribute: true
+            type: string

@@ -1,0 +1,4 @@
+CdmFr\Model\V1_1_1\Cdm\TeachingPlace:
+    xml_root_name: teachingPlace
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM'
+    properties: {  }

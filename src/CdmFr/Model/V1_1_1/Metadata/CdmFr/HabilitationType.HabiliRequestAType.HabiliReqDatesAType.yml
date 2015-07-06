@@ -1,0 +1,42 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\HabiliRequestAType\HabiliReqDatesAType:
+    properties:
+        dateCS:
+            expose: true
+            access_type: public_method
+            serialized_name: dateCS
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDateCS
+                setter: setDateCS
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        dateCA:
+            expose: true
+            access_type: public_method
+            serialized_name: dateCA
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDateCA
+                setter: setDateCA
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        dateCEVU:
+            expose: true
+            access_type: public_method
+            serialized_name: dateCEVU
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDateCEVU
+                setter: setDateCEVU
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType
+        dateCNESR:
+            expose: true
+            access_type: public_method
+            serialized_name: dateCNESR
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getDateCNESR
+                setter: setDateCNESR
+            type: CdmFr\Model\V1_1_1\Cdm\CDMdateType

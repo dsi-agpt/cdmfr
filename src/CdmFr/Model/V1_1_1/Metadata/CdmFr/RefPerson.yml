@@ -1,0 +1,31 @@
+CdmFr\Model\V1_1_1\CdmFr\RefPerson:
+    xml_root_name: refPerson
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        idRef:
+            expose: true
+            access_type: public_method
+            serialized_name: idRef
+            accessor:
+                getter: getIdRef
+                setter: setIdRef
+            xml_attribute: true
+            type: string
+        ref:
+            expose: true
+            access_type: public_method
+            serialized_name: ref
+            accessor:
+                getter: getRef
+                setter: setRef
+            xml_attribute: true
+            type: string
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            accessor:
+                getter: getRole
+                setter: setRole
+            xml_attribute: true
+            type: string

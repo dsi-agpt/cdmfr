@@ -1,0 +1,435 @@
+CdmFr\Model\V1_1_1\Cdm\CourseType:
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        ident:
+            expose: true
+            access_type: public_method
+            serialized_name: ident
+            accessor:
+                getter: getIdent
+                setter: setIdent
+            xml_attribute: true
+            type: string
+        language:
+            expose: true
+            access_type: public_method
+            serialized_name: language
+            accessor:
+                getter: getLanguage
+                setter: setLanguage
+            xml_attribute: true
+            type: string
+        courseID:
+            expose: true
+            access_type: public_method
+            serialized_name: courseID
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourseID
+                setter: setCourseID
+            xml_list:
+                inline: true
+                entry_name: courseID
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        courseName:
+            expose: true
+            access_type: public_method
+            serialized_name: courseName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourseName
+                setter: setCourseName
+            type: array<string>
+            xml_list:
+                inline: true
+                entry_name: courseName
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+        courseCode:
+            expose: true
+            access_type: public_method
+            serialized_name: courseCode
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourseCode
+                setter: setCourseCode
+            xml_list:
+                inline: true
+                entry_name: courseCode
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\CourseType\CourseCodeAType>
+        webLink:
+            expose: true
+            access_type: public_method
+            serialized_name: webLink
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getWebLink
+                setter: setWebLink
+            xml_list:
+                inline: true
+                entry_name: webLink
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\WebLink>
+        courseIntroduction:
+            expose: true
+            access_type: public_method
+            serialized_name: courseIntroduction
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourseIntroduction
+                setter: setCourseIntroduction
+            xml_list:
+                inline: true
+                entry_name: courseIntroduction
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        courseDescription:
+            expose: true
+            access_type: public_method
+            serialized_name: courseDescription
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCourseDescription
+                setter: setCourseDescription
+            xml_list:
+                inline: true
+                entry_name: courseDescription
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\CourseDescriptionType>
+        level:
+            expose: true
+            access_type: public_method
+            serialized_name: level
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getLevel
+                setter: setLevel
+            xml_list:
+                inline: true
+                entry_name: level
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Level>
+        levelCode:
+            expose: true
+            access_type: public_method
+            serialized_name: levelCode
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getLevelCode
+                setter: setLevelCode
+            xml_list:
+                inline: true
+                entry_name: levelCode
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\LevelCode>
+        teachingTerm:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingTerm
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingTerm
+                setter: setTeachingTerm
+            xml_list:
+                inline: true
+                entry_name: teachingTerm
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\TeachingTerm>
+        credits:
+            expose: true
+            access_type: public_method
+            serialized_name: credits
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getCredits
+                setter: setCredits
+            xml_list:
+                inline: true
+                entry_name: credits
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\Credits>
+        learningObjectives:
+            expose: true
+            access_type: public_method
+            serialized_name: learningObjectives
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getLearningObjectives
+                setter: setLearningObjectives
+            xml_list:
+                inline: true
+                entry_name: learningObjectives
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        admissionInfo:
+            expose: true
+            access_type: public_method
+            serialized_name: admissionInfo
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getAdmissionInfo
+                setter: setAdmissionInfo
+            xml_list:
+                inline: true
+                entry_name: admissionInfo
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\AdmissionInfo>
+        recommendedPrerequisites:
+            expose: true
+            access_type: public_method
+            serialized_name: recommendedPrerequisites
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRecommendedPrerequisites
+                setter: setRecommendedPrerequisites
+            xml_list:
+                inline: true
+                entry_name: recommendedPrerequisites
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        formalPrerequisites:
+            expose: true
+            access_type: public_method
+            serialized_name: formalPrerequisites
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getFormalPrerequisites
+                setter: setFormalPrerequisites
+            xml_list:
+                inline: true
+                entry_name: formalPrerequisites
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        teachingPlace:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingPlace
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingPlace
+                setter: setTeachingPlace
+            xml_list:
+                inline: true
+                entry_name: teachingPlace
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\TeachingPlace>
+        targetGroup:
+            expose: true
+            access_type: public_method
+            serialized_name: targetGroup
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTargetGroup
+                setter: setTargetGroup
+            xml_list:
+                inline: true
+                entry_name: targetGroup
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\TargetGroup>
+        formOfTeaching:
+            expose: true
+            access_type: public_method
+            serialized_name: formOfTeaching
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getFormOfTeaching
+                setter: setFormOfTeaching
+            xml_list:
+                inline: true
+                entry_name: formOfTeaching
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        formOfAssessment:
+            expose: true
+            access_type: public_method
+            serialized_name: formOfAssessment
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getFormOfAssessment
+                setter: setFormOfAssessment
+            xml_list:
+                inline: true
+                entry_name: formOfAssessment
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        benefits:
+            expose: true
+            access_type: public_method
+            serialized_name: benefits
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getBenefits
+                setter: setBenefits
+            xml_list:
+                inline: true
+                entry_name: benefits
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        instructionLanguage:
+            expose: true
+            access_type: public_method
+            serialized_name: instructionLanguage
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInstructionLanguage
+                setter: setInstructionLanguage
+            xml_list:
+                inline: true
+                entry_name: instructionLanguage
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InstructionLanguage>
+        overlap:
+            expose: true
+            access_type: public_method
+            serialized_name: overlap
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getOverlap
+                setter: setOverlap
+            xml_list:
+                inline: true
+                entry_name: overlap
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        syllabus:
+            expose: true
+            access_type: public_method
+            serialized_name: syllabus
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getSyllabus
+                setter: setSyllabus
+            xml_list:
+                inline: true
+                entry_name: syllabus
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Syllabus>
+        expenses:
+            expose: true
+            access_type: public_method
+            serialized_name: expenses
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getExpenses
+                setter: setExpenses
+            xml_list:
+                inline: true
+                entry_name: expenses
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Expenses>
+        universalAdjustment:
+            expose: true
+            access_type: public_method
+            serialized_name: universalAdjustment
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getUniversalAdjustment
+                setter: setUniversalAdjustment
+            xml_list:
+                inline: true
+                entry_name: universalAdjustment
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\UniversalAdjustment>
+        exam:
+            expose: true
+            access_type: public_method
+            serialized_name: exam
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getExam
+                setter: setExam
+            xml_list:
+                inline: true
+                entry_name: exam
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\ExamType>
+        teachingActivity:
+            expose: true
+            access_type: public_method
+            serialized_name: teachingActivity
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getTeachingActivity
+                setter: setTeachingActivity
+            xml_list:
+                inline: true
+                entry_name: teachingActivity
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\CourseType\TeachingActivityAType>
+        contacts:
+            expose: true
+            access_type: public_method
+            serialized_name: contacts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getContacts
+                setter: setContacts
+            xml_list:
+                inline: true
+                entry_name: contacts
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Contacts>
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            xml_list:
+                inline: true
+                entry_name: infoBlock
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlock>
+        searchword:
+            expose: true
+            access_type: public_method
+            serialized_name: searchword
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getSearchword
+                setter: setSearchword
+            xml_list:
+                inline: true
+                entry_name: searchword
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>

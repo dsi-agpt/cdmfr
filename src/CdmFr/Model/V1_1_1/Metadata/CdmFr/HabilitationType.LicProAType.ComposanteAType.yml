@@ -1,0 +1,35 @@
+CdmFr\Model\V1_1_1\CdmFr\HabilitationType\LicProAType\ComposanteAType:
+    properties:
+        typeCompLicPro:
+            expose: true
+            access_type: public_method
+            serialized_name: typeCompLicPro
+            accessor:
+                getter: getTypeCompLicPro
+                setter: setTypeCompLicPro
+            xml_attribute: true
+            type: string
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            type: CdmFr\Model\V1_1_1\CdmFr\RefOrgUnit
+        compName:
+            expose: true
+            access_type: public_method
+            serialized_name: compName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getCompName
+                setter: setCompName
+            type: array<CdmFr\Model\V1_1_1\Cdm\TextType\TextAType>
+            xml_list:
+                inline: false
+                entry_name: text
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'

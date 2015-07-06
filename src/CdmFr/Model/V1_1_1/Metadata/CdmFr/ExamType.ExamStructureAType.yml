@@ -1,0 +1,35 @@
+CdmFr\Model\V1_1_1\CdmFr\ExamType\ExamStructureAType:
+    properties:
+        examPartStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: examPartStructure
+            accessor:
+                getter: getExamPartStructure
+                setter: setExamPartStructure
+            xml_attribute: true
+            type: string
+        partStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: partStructure
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getPartStructure
+                setter: setPartStructure
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType
+        examParts:
+            expose: true
+            access_type: public_method
+            serialized_name: examParts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getExamParts
+                setter: setExamParts
+            xml_list:
+                inline: true
+                entry_name: examParts
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\ExamType>

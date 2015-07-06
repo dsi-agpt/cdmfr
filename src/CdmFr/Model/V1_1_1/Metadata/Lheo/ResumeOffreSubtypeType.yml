@@ -1,0 +1,204 @@
+CdmFr\Model\V1_1_1\Lheo\ResumeOffreSubtypeType:
+    properties:
+        domaineFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: domaine-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDomaineFormation
+                setter: setDomaineFormation
+            type: CdmFr\Model\V1_1_1\Lheo\DomaineFormation
+        intituleFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: intitule-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getIntituleFormation
+                setter: setIntituleFormation
+            type: CdmFr\Model\V1_1_1\Lheo\IntituleFormation
+        nomOrganisme:
+            expose: true
+            access_type: public_method
+            serialized_name: nom-organisme
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNomOrganisme
+                setter: setNomOrganisme
+            type: CdmFr\Model\V1_1_1\Lheo\NomOrganisme
+        sIRET:
+            expose: true
+            access_type: public_method
+            serialized_name: SIRET
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getSIRET
+                setter: setSIRET
+            type: CdmFr\Model\V1_1_1\Lheo\SIRET
+        codepostal:
+            expose: true
+            access_type: public_method
+            serialized_name: codepostal
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodepostal
+                setter: setCodepostal
+            type: CdmFr\Model\V1_1_1\Lheo\Codepostal
+        codeINSEECommune:
+            expose: true
+            access_type: public_method
+            serialized_name: code-INSEE-commune
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeINSEECommune
+                setter: setCodeINSEECommune
+            type: CdmFr\Model\V1_1_1\Lheo\CodeINSEECommune
+        ville:
+            expose: true
+            access_type: public_method
+            serialized_name: ville
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getVille
+                setter: setVille
+            type: CdmFr\Model\V1_1_1\Lheo\Ville
+        departement:
+            expose: true
+            access_type: public_method
+            serialized_name: departement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDepartement
+                setter: setDepartement
+            type: CdmFr\Model\V1_1_1\Lheo\Departement
+        region:
+            expose: true
+            access_type: public_method
+            serialized_name: region
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRegion
+                setter: setRegion
+            type: CdmFr\Model\V1_1_1\Lheo\Region
+        certifiante:
+            expose: true
+            access_type: public_method
+            serialized_name: certifiante
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCertifiante
+                setter: setCertifiante
+            type: CdmFr\Model\V1_1_1\Lheo\Certifiante
+        codeNiveauEntree:
+            expose: true
+            access_type: public_method
+            serialized_name: code-niveau-entree
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeNiveauEntree
+                setter: setCodeNiveauEntree
+            type: CdmFr\Model\V1_1_1\Lheo\CodeNiveauEntree
+        priseEnChargeFraisPossible:
+            expose: true
+            access_type: public_method
+            serialized_name: prise-en-charge-frais-possible
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPriseEnChargeFraisPossible
+                setter: setPriseEnChargeFraisPossible
+            type: CdmFr\Model\V1_1_1\Lheo\PriseEnChargeFraisPossible
+        modalitesEnseignement:
+            expose: true
+            access_type: public_method
+            serialized_name: modalites-enseignement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModalitesEnseignement
+                setter: setModalitesEnseignement
+            type: CdmFr\Model\V1_1_1\Lheo\ModalitesEnseignement
+        codePublicVise:
+            expose: true
+            access_type: public_method
+            serialized_name: code-public-vise
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodePublicVise
+                setter: setCodePublicVise
+            type: CdmFr\Model\V1_1_1\Lheo\CodePublicVise
+        nombreHeuresTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: nombre-heures-total
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNombreHeuresTotal
+                setter: setNombreHeuresTotal
+            type: CdmFr\Model\V1_1_1\Lheo\NombreHeuresTotal
+        session:
+            expose: true
+            access_type: public_method
+            serialized_name: session
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getSession
+                setter: setSession
+            xml_list:
+                inline: true
+                entry_name: session
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Session>
+        contactFormationResume:
+            expose: true
+            access_type: public_method
+            serialized_name: contact-formation-resume
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getContactFormationResume
+                setter: setContactFormationResume
+            type: CdmFr\Model\V1_1_1\Lheo\ContactFormationResume
+        certification:
+            expose: true
+            access_type: public_method
+            serialized_name: certification
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCertification
+                setter: setCertification
+            xml_list:
+                inline: true
+                entry_name: certification
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Certification>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

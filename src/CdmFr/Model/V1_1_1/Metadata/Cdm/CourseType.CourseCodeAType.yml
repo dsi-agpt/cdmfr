@@ -1,0 +1,28 @@
+CdmFr\Model\V1_1_1\Cdm\CourseType\CourseCodeAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        codeSet:
+            expose: true
+            access_type: public_method
+            serialized_name: codeSet
+            accessor:
+                getter: getCodeSet
+                setter: setCodeSet
+            xml_attribute: true
+            type: string
+        userDefined:
+            expose: true
+            access_type: public_method
+            serialized_name: 'userDefined '
+            accessor:
+                getter: getUserDefined
+                setter: setUserDefined
+            xml_attribute: true
+            type: string

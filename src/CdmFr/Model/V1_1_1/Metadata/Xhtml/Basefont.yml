@@ -1,0 +1,40 @@
+CdmFr\Model\V1_1_1\Xhtml\Basefont:
+    xml_root_name: basefont
+    xml_root_namespace: 'http://www.w3.org/1999/xhtml'
+    properties:
+        id:
+            expose: true
+            access_type: public_method
+            serialized_name: id
+            accessor:
+                getter: getId
+                setter: setId
+            xml_attribute: true
+            type: string
+        size:
+            expose: true
+            access_type: public_method
+            serialized_name: size
+            accessor:
+                getter: getSize
+                setter: setSize
+            xml_attribute: true
+            type: \AnyType
+        color:
+            expose: true
+            access_type: public_method
+            serialized_name: color
+            accessor:
+                getter: getColor
+                setter: setColor
+            xml_attribute: true
+            type: string
+        face:
+            expose: true
+            access_type: public_method
+            serialized_name: face
+            accessor:
+                getter: getFace
+                setter: setFace
+            xml_attribute: true
+            type: \AnyType

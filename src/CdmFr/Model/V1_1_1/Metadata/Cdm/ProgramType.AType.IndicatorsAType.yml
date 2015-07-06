@@ -1,0 +1,81 @@
+CdmFr\Model\V1_1_1\Cdm\ProgramType\AType\IndicatorsAType:
+    properties:
+        indicator:
+            expose: true
+            access_type: public_method
+            serialized_name: indicator
+            accessor:
+                getter: getIndicator
+                setter: setIndicator
+            xml_attribute: true
+            type: string
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            xml_list:
+                inline: true
+                entry_name: infoBlock
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlock>
+        webLink:
+            expose: true
+            access_type: public_method
+            serialized_name: webLink
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getWebLink
+                setter: setWebLink
+            xml_list:
+                inline: true
+                entry_name: webLink
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\CdmFr\WebLink>
+        actions:
+            expose: true
+            access_type: public_method
+            serialized_name: actions
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getActions
+                setter: setActions
+            xml_list:
+                inline: true
+                entry_name: actions
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        prospective:
+            expose: true
+            access_type: public_method
+            serialized_name: prospective
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getProspective
+                setter: setProspective
+            xml_list:
+                inline: true
+                entry_name: prospective
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        fieldManagement:
+            expose: true
+            access_type: public_method
+            serialized_name: fieldManagement
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getFieldManagement
+                setter: setFieldManagement
+            xml_list:
+                inline: true
+                entry_name: fieldManagement
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<CdmFr\Model\V1_1_1\Cdm\ProgramType\AType\IndicatorsAType\FieldManagementAType>

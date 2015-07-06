@@ -1,0 +1,13 @@
+CdmFr\Model\V1_1_1\CdmFr\AdmissionDescription:
+    xml_root_name: admissionDescription
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        equiv:
+            expose: true
+            access_type: public_method
+            serialized_name: equiv
+            accessor:
+                getter: getEquiv
+                setter: setEquiv
+            xml_attribute: true
+            type: string

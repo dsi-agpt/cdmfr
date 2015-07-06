@@ -1,0 +1,96 @@
+CdmFr\Model\V1_1_1\Lheo\OrganismeFormationResponsableSubtypeType:
+    properties:
+        numeroActivite:
+            expose: true
+            access_type: public_method
+            serialized_name: numero-activite
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNumeroActivite
+                setter: setNumeroActivite
+            type: CdmFr\Model\V1_1_1\Lheo\NumeroActivite
+        sIRETOrganismeFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: SIRET-organisme-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getSIRETOrganismeFormation
+                setter: setSIRETOrganismeFormation
+            type: CdmFr\Model\V1_1_1\Lheo\SIRETOrganismeFormation
+        nomOrganisme:
+            expose: true
+            access_type: public_method
+            serialized_name: nom-organisme
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNomOrganisme
+                setter: setNomOrganisme
+            type: CdmFr\Model\V1_1_1\Lheo\NomOrganisme
+        raisonSociale:
+            expose: true
+            access_type: public_method
+            serialized_name: raison-sociale
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRaisonSociale
+                setter: setRaisonSociale
+            type: CdmFr\Model\V1_1_1\Lheo\RaisonSociale
+        coordonneesOrganisme:
+            expose: true
+            access_type: public_method
+            serialized_name: coordonnees-organisme
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCoordonneesOrganisme
+                setter: setCoordonneesOrganisme
+            type: CdmFr\Model\V1_1_1\Lheo\CoordonneesOrganisme
+        contactOrganisme:
+            expose: true
+            access_type: public_method
+            serialized_name: contact-organisme
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getContactOrganisme
+                setter: setContactOrganisme
+            type: CdmFr\Model\V1_1_1\Lheo\ContactOrganisme
+        renseignementsSpecifiques:
+            expose: true
+            access_type: public_method
+            serialized_name: renseignements-specifiques
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRenseignementsSpecifiques
+                setter: setRenseignementsSpecifiques
+            type: CdmFr\Model\V1_1_1\Lheo\RenseignementsSpecifiques
+        potentiel:
+            expose: true
+            access_type: public_method
+            serialized_name: potentiel
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPotentiel
+                setter: setPotentiel
+            type: CdmFr\Model\V1_1_1\Lheo\Potentiel
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

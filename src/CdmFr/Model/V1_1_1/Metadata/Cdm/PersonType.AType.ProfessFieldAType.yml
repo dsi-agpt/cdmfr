@@ -1,0 +1,38 @@
+CdmFr\Model\V1_1_1\Cdm\PersonType\AType\ProfessFieldAType:
+    properties:
+        employerRomeCode:
+            expose: true
+            access_type: public_method
+            serialized_name: employerRomeCode
+            accessor:
+                getter: getEmployerRomeCode
+                setter: setEmployerRomeCode
+            xml_attribute: true
+            type: string
+        employerSiretIdRef:
+            expose: true
+            access_type: public_method
+            serialized_name: employerSiretIdRef
+            accessor:
+                getter: getEmployerSiretIdRef
+                setter: setEmployerSiretIdRef
+            xml_attribute: true
+            type: string
+        ref:
+            expose: true
+            access_type: public_method
+            serialized_name: ref
+            accessor:
+                getter: getRef
+                setter: setRef
+            xml_attribute: true
+            type: string
+        employerName:
+            expose: true
+            access_type: public_method
+            serialized_name: employerName
+            accessor:
+                getter: getEmployerName
+                setter: setEmployerName
+            xml_attribute: true
+            type: string

@@ -1,0 +1,35 @@
+CdmFr\Model\V1_1_1\Cdm\TeachingActivityType\TeachingActivityStructureAType:
+    properties:
+        activityPartStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: activityPartStructure
+            accessor:
+                getter: getActivityPartStructure
+                setter: setActivityPartStructure
+            xml_attribute: true
+            type: string
+        partStructure:
+            expose: true
+            access_type: public_method
+            serialized_name: partStructure
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPartStructure
+                setter: setPartStructure
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlockType
+        activityParts:
+            expose: true
+            access_type: public_method
+            serialized_name: activityParts
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getActivityParts
+                setter: setActivityParts
+            xml_list:
+                inline: true
+                entry_name: activityParts
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\TeachingActivityType>

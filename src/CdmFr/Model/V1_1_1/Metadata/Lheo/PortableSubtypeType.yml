@@ -1,0 +1,30 @@
+CdmFr\Model\V1_1_1\Lheo\PortableSubtypeType:
+    properties:
+        numtel:
+            expose: true
+            access_type: public_method
+            serialized_name: numtel
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNumtel
+                setter: setNumtel
+            xml_list:
+                inline: true
+                entry_name: numtel
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Numtel>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

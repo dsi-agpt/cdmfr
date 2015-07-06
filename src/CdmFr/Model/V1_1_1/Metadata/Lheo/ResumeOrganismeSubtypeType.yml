@@ -1,0 +1,56 @@
+CdmFr\Model\V1_1_1\Lheo\ResumeOrganismeSubtypeType:
+    properties:
+        nomOrganisme:
+            expose: true
+            access_type: public_method
+            serialized_name: nom-organisme
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNomOrganisme
+                setter: setNomOrganisme
+            type: CdmFr\Model\V1_1_1\Lheo\NomOrganisme
+        raisonSociale:
+            expose: true
+            access_type: public_method
+            serialized_name: raison-sociale
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRaisonSociale
+                setter: setRaisonSociale
+            type: CdmFr\Model\V1_1_1\Lheo\RaisonSociale
+        sIRET:
+            expose: true
+            access_type: public_method
+            serialized_name: SIRET
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getSIRET
+                setter: setSIRET
+            type: CdmFr\Model\V1_1_1\Lheo\SIRET
+        numeroActivite:
+            expose: true
+            access_type: public_method
+            serialized_name: numero-activite
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNumeroActivite
+                setter: setNumeroActivite
+            type: CdmFr\Model\V1_1_1\Lheo\NumeroActivite
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

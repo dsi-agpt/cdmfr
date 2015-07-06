@@ -1,0 +1,380 @@
+CdmFr\Model\V1_1_1\Lheo\ActionSubtypeType:
+    properties:
+        rythmeFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: rythme-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRythmeFormation
+                setter: setRythmeFormation
+            type: CdmFr\Model\V1_1_1\Lheo\RythmeFormation
+        codePublicVise:
+            expose: true
+            access_type: public_method
+            serialized_name: code-public-vise
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodePublicVise
+                setter: setCodePublicVise
+            xml_list:
+                inline: true
+                entry_name: code-public-vise
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\CodePublicVise>
+        dureeIndicative:
+            expose: true
+            access_type: public_method
+            serialized_name: duree-indicative
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDureeIndicative
+                setter: setDureeIndicative
+            type: CdmFr\Model\V1_1_1\Lheo\DureeIndicative
+        niveauEntreeObligatoire:
+            expose: true
+            access_type: public_method
+            serialized_name: niveau-entree-obligatoire
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNiveauEntreeObligatoire
+                setter: setNiveauEntreeObligatoire
+            type: CdmFr\Model\V1_1_1\Lheo\NiveauEntreeObligatoire
+        modalitesAlternance:
+            expose: true
+            access_type: public_method
+            serialized_name: modalites-alternance
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModalitesAlternance
+                setter: setModalitesAlternance
+            type: CdmFr\Model\V1_1_1\Lheo\ModalitesAlternance
+        modalitesEnseignement:
+            expose: true
+            access_type: public_method
+            serialized_name: modalites-enseignement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModalitesEnseignement
+                setter: setModalitesEnseignement
+            type: CdmFr\Model\V1_1_1\Lheo\ModalitesEnseignement
+        conditionsSpecifiques:
+            expose: true
+            access_type: public_method
+            serialized_name: conditions-specifiques
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getConditionsSpecifiques
+                setter: setConditionsSpecifiques
+            type: CdmFr\Model\V1_1_1\Lheo\ConditionsSpecifiques
+        priseEnChargeFraisPossible:
+            expose: true
+            access_type: public_method
+            serialized_name: prise-en-charge-frais-possible
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPriseEnChargeFraisPossible
+                setter: setPriseEnChargeFraisPossible
+            type: CdmFr\Model\V1_1_1\Lheo\PriseEnChargeFraisPossible
+        lieuDeFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: lieu-de-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getLieuDeFormation
+                setter: setLieuDeFormation
+            type: CdmFr\Model\V1_1_1\Lheo\LieuDeFormation
+        modalitesEntreesSorties:
+            expose: true
+            access_type: public_method
+            serialized_name: modalites-entrees-sorties
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModalitesEntreesSorties
+                setter: setModalitesEntreesSorties
+            type: CdmFr\Model\V1_1_1\Lheo\ModalitesEntreesSorties
+        adresseInscription:
+            expose: true
+            access_type: public_method
+            serialized_name: adresse-inscription
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getAdresseInscription
+                setter: setAdresseInscription
+            type: CdmFr\Model\V1_1_1\Lheo\AdresseInscription
+        dateInscription:
+            expose: true
+            access_type: public_method
+            serialized_name: date-inscription
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDateInscription
+                setter: setDateInscription
+            xml_list:
+                inline: true
+                entry_name: date-inscription
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\DateInscription>
+        session:
+            expose: true
+            access_type: public_method
+            serialized_name: session
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getSession
+                setter: setSession
+            xml_list:
+                inline: true
+                entry_name: session
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Session>
+        adresseInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: adresse-information
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getAdresseInformation
+                setter: setAdresseInformation
+            type: CdmFr\Model\V1_1_1\Lheo\AdresseInformation
+        dateInformation:
+            expose: true
+            access_type: public_method
+            serialized_name: date-information
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDateInformation
+                setter: setDateInformation
+            xml_list:
+                inline: true
+                entry_name: date-information
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\DateInformation>
+        restauration:
+            expose: true
+            access_type: public_method
+            serialized_name: restauration
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRestauration
+                setter: setRestauration
+            type: CdmFr\Model\V1_1_1\Lheo\Restauration
+        hebergement:
+            expose: true
+            access_type: public_method
+            serialized_name: hebergement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getHebergement
+                setter: setHebergement
+            type: CdmFr\Model\V1_1_1\Lheo\Hebergement
+        transport:
+            expose: true
+            access_type: public_method
+            serialized_name: transport
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getTransport
+                setter: setTransport
+            type: CdmFr\Model\V1_1_1\Lheo\Transport
+        accesHandicapes:
+            expose: true
+            access_type: public_method
+            serialized_name: acces-handicapes
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getAccesHandicapes
+                setter: setAccesHandicapes
+            type: CdmFr\Model\V1_1_1\Lheo\AccesHandicapes
+        langueFormation:
+            expose: true
+            access_type: public_method
+            serialized_name: langue-formation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getLangueFormation
+                setter: setLangueFormation
+            type: CdmFr\Model\V1_1_1\Lheo\LangueFormation
+        modalitesRecrutement:
+            expose: true
+            access_type: public_method
+            serialized_name: modalites-recrutement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModalitesRecrutement
+                setter: setModalitesRecrutement
+            type: CdmFr\Model\V1_1_1\Lheo\ModalitesRecrutement
+        modalitesPedagogiques:
+            expose: true
+            access_type: public_method
+            serialized_name: modalites-pedagogiques
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getModalitesPedagogiques
+                setter: setModalitesPedagogiques
+            type: CdmFr\Model\V1_1_1\Lheo\ModalitesPedagogiques
+        codeModalitePedagogique:
+            expose: true
+            access_type: public_method
+            serialized_name: code-modalite-pedagogique
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeModalitePedagogique
+                setter: setCodeModalitePedagogique
+            xml_list:
+                inline: true
+                entry_name: code-modalite-pedagogique
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\CodeModalitePedagogique>
+        fraisRestants:
+            expose: true
+            access_type: public_method
+            serialized_name: frais-restants
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getFraisRestants
+                setter: setFraisRestants
+            type: CdmFr\Model\V1_1_1\Lheo\FraisRestants
+        codePerimetreRecrutement:
+            expose: true
+            access_type: public_method
+            serialized_name: code-perimetre-recrutement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodePerimetreRecrutement
+                setter: setCodePerimetreRecrutement
+            type: CdmFr\Model\V1_1_1\Lheo\CodePerimetreRecrutement
+        infosPerimetreRecrutement:
+            expose: true
+            access_type: public_method
+            serialized_name: infos-perimetre-recrutement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getInfosPerimetreRecrutement
+                setter: setInfosPerimetreRecrutement
+            type: CdmFr\Model\V1_1_1\Lheo\InfosPerimetreRecrutement
+        prixHoraireTTC:
+            expose: true
+            access_type: public_method
+            serialized_name: prix-horaire-TTC
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPrixHoraireTTC
+                setter: setPrixHoraireTTC
+            type: CdmFr\Model\V1_1_1\Lheo\PrixHoraireTTC
+        nombreHeuresTotal:
+            expose: true
+            access_type: public_method
+            serialized_name: nombre-heures-total
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getNombreHeuresTotal
+                setter: setNombreHeuresTotal
+            type: CdmFr\Model\V1_1_1\Lheo\NombreHeuresTotal
+        detailConditionsPriseEnCharge:
+            expose: true
+            access_type: public_method
+            serialized_name: detail-conditions-prise-en-charge
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDetailConditionsPriseEnCharge
+                setter: setDetailConditionsPriseEnCharge
+            type: CdmFr\Model\V1_1_1\Lheo\DetailConditionsPriseEnCharge
+        conventionnement:
+            expose: true
+            access_type: public_method
+            serialized_name: conventionnement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getConventionnement
+                setter: setConventionnement
+            type: CdmFr\Model\V1_1_1\Lheo\Conventionnement
+        dureeConventionnee:
+            expose: true
+            access_type: public_method
+            serialized_name: duree-conventionnee
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDureeConventionnee
+                setter: setDureeConventionnee
+            type: CdmFr\Model\V1_1_1\Lheo\DureeConventionnee
+        dateLimiteInscription:
+            expose: true
+            access_type: public_method
+            serialized_name: date-limite-inscription
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDateLimiteInscription
+                setter: setDateLimiteInscription
+            type: CdmFr\Model\V1_1_1\Lheo\DateLimiteInscription
+        organismeFormateur:
+            expose: true
+            access_type: public_method
+            serialized_name: organisme-formateur
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getOrganismeFormateur
+                setter: setOrganismeFormateur
+            type: CdmFr\Model\V1_1_1\Lheo\OrganismeFormateur
+        organismeFinanceur:
+            expose: true
+            access_type: public_method
+            serialized_name: organisme-financeur
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getOrganismeFinanceur
+                setter: setOrganismeFinanceur
+            xml_list:
+                inline: true
+                entry_name: organisme-financeur
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\OrganismeFinanceur>
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

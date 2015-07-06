@@ -1,0 +1,250 @@
+CdmFr\Model\V1_1_1\Cdm\InfoBlockType:
+    properties:
+        blockLang:
+            expose: true
+            access_type: public_method
+            serialized_name: blockLang
+            accessor:
+                getter: getBlockLang
+                setter: setBlockLang
+            xml_attribute: true
+            type: string
+        userDefined:
+            expose: true
+            access_type: public_method
+            serialized_name: userDefined
+            accessor:
+                getter: getUserDefined
+                setter: setUserDefined
+            xml_attribute: true
+            type: string
+        header:
+            expose: true
+            access_type: public_method
+            serialized_name: header
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getHeader
+                setter: setHeader
+            type: string
+        bold:
+            expose: true
+            access_type: public_method
+            serialized_name: bold
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getBold
+                setter: setBold
+            xml_list:
+                inline: true
+                entry_name: bold
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        italic:
+            expose: true
+            access_type: public_method
+            serialized_name: italic
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getItalic
+                setter: setItalic
+            xml_list:
+                inline: true
+                entry_name: italic
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        p:
+            expose: true
+            access_type: public_method
+            serialized_name: p
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getP
+                setter: setP
+            xml_list:
+                inline: true
+                entry_name: p
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        br:
+            expose: true
+            access_type: public_method
+            serialized_name: br
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getBr
+                setter: setBr
+            xml_list:
+                inline: true
+                entry_name: br
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\Br>
+        list:
+            expose: true
+            access_type: public_method
+            serialized_name: list
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getList
+                setter: setList
+            xml_list:
+                inline: true
+                entry_name: list
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType\ListAType>
+        email:
+            expose: true
+            access_type: public_method
+            serialized_name: email
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getEmail
+                setter: setEmail
+            xml_list:
+                inline: true
+                entry_name: email
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>
+        webLink:
+            expose: true
+            access_type: public_method
+            serialized_name: webLink
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getWebLink
+                setter: setWebLink
+            xml_list:
+                inline: true
+                entry_name: webLink
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\WebLink>
+        refOrgUnit:
+            expose: true
+            access_type: public_method
+            serialized_name: refOrgUnit
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefOrgUnit
+                setter: setRefOrgUnit
+            xml_list:
+                inline: true
+                entry_name: refOrgUnit
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefOrgUnit>
+        refProgram:
+            expose: true
+            access_type: public_method
+            serialized_name: refProgram
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefProgram
+                setter: setRefProgram
+            xml_list:
+                inline: true
+                entry_name: refProgram
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefProgram>
+        refCourse:
+            expose: true
+            access_type: public_method
+            serialized_name: refCourse
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefCourse
+                setter: setRefCourse
+            xml_list:
+                inline: true
+                entry_name: refCourse
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefCourse>
+        refPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: refPerson
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getRefPerson
+                setter: setRefPerson
+            xml_list:
+                inline: true
+                entry_name: refPerson
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\RefPerson>
+        picture:
+            expose: true
+            access_type: public_method
+            serialized_name: picture
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getPicture
+                setter: setPicture
+            xml_list:
+                inline: true
+                entry_name: picture
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        extension:
+            expose: true
+            access_type: public_method
+            serialized_name: extension
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getExtension
+                setter: setExtension
+            type: CdmFr\Model\V1_1_1\AnyTypeHandler
+        subBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: subBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getSubBlock
+                setter: setSubBlock
+            xml_list:
+                inline: true
+                entry_name: subBlock
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        altLangBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: altLangBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getAltLangBlock
+                setter: setAltLangBlock
+            xml_list:
+                inline: true
+                entry_name: altLangBlock
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<CdmFr\Model\V1_1_1\Cdm\InfoBlockType>
+        searchword:
+            expose: true
+            access_type: public_method
+            serialized_name: searchword
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            accessor:
+                getter: getSearchword
+                setter: setSearchword
+            xml_list:
+                inline: true
+                entry_name: searchword
+                namespace: 'http://cdm-fr.fr/2012/CDM'
+            type: array<string>

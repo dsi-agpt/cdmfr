@@ -1,0 +1,19 @@
+CdmFr\Model\V1_1_1\Cdm\ContactDataType\TelephoneAType:
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string
+        teltype:
+            expose: true
+            access_type: public_method
+            serialized_name: teltype
+            accessor:
+                getter: getTeltype
+                setter: setTeltype
+            xml_attribute: true
+            type: string

@@ -1,0 +1,20 @@
+CdmFr\Model\V1_1_1\Cdm\ExamType\ExamKindAType:
+    properties:
+        examKind:
+            expose: true
+            access_type: public_method
+            serialized_name: examKind
+            accessor:
+                getter: getExamKind
+                setter: setExamKind
+            xml_attribute: true
+            type: string
+        examForm:
+            expose: true
+            access_type: public_method
+            serialized_name: examForm
+            accessor:
+                getter: getExamForm
+                setter: setExamForm
+            xml_attribute: true
+            type: string

@@ -1,0 +1,24 @@
+CdmFr\Model\V1_1_1\CdmFr\FormOfAssessment:
+    xml_root_name: formOfAssessment
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        infoBlock:
+            expose: true
+            access_type: public_method
+            serialized_name: infoBlock
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getInfoBlock
+                setter: setInfoBlock
+            type: CdmFr\Model\V1_1_1\Cdm\InfoBlock
+        juryStruct:
+            expose: true
+            access_type: public_method
+            serialized_name: juryStruct
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getJuryStruct
+                setter: setJuryStruct
+            type: CdmFr\Model\V1_1_1\CdmFr\FormOfAssessment\JuryStructAType

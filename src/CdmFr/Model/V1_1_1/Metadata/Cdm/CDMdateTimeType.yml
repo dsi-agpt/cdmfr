@@ -1,0 +1,20 @@
+CdmFr\Model\V1_1_1\Cdm\CDMdateTimeType:
+    properties:
+        date:
+            expose: true
+            access_type: public_method
+            serialized_name: date
+            accessor:
+                getter: getDate
+                setter: setDate
+            xml_attribute: true
+            type: 'DateTime<''Y-m-d''>'
+        time:
+            expose: true
+            access_type: public_method
+            serialized_name: time
+            accessor:
+                getter: getTime
+                setter: setTime
+            xml_attribute: true
+            type: Goetas\Xsd\XsdToPhp\XMLSchema\Time

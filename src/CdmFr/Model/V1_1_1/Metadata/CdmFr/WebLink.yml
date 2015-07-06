@@ -1,0 +1,46 @@
+CdmFr\Model\V1_1_1\CdmFr\WebLink:
+    xml_root_name: webLink
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        role:
+            expose: true
+            access_type: public_method
+            serialized_name: role
+            accessor:
+                getter: getRole
+                setter: setRole
+            xml_attribute: true
+            type: string
+        userDefined:
+            expose: true
+            access_type: public_method
+            serialized_name: userDefined
+            accessor:
+                getter: getUserDefined
+                setter: setUserDefined
+            xml_attribute: true
+            type: string
+        href:
+            expose: true
+            access_type: public_method
+            serialized_name: href
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getHref
+                setter: setHref
+            type: string
+        linkName:
+            expose: true
+            access_type: public_method
+            serialized_name: linkName
+            xml_element:
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            accessor:
+                getter: getLinkName
+                setter: setLinkName
+            xml_list:
+                inline: true
+                entry_name: linkName
+                namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+            type: array<string>

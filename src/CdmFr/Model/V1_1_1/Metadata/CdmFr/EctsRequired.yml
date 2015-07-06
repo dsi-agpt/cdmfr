@@ -1,0 +1,13 @@
+CdmFr\Model\V1_1_1\CdmFr\EctsRequired:
+    xml_root_name: ectsRequired
+    xml_root_namespace: 'http://cdm-fr.fr/2012/CDM-frSchema'
+    properties:
+        value:
+            expose: true
+            access_type: public_method
+            serialized_name: value
+            accessor:
+                getter: getValue
+                setter: setValue
+            xml_attribute: true
+            type: integer

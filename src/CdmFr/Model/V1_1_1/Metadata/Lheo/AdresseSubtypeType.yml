@@ -1,0 +1,110 @@
+CdmFr\Model\V1_1_1\Lheo\AdresseSubtypeType:
+    properties:
+        ligne:
+            expose: true
+            access_type: public_method
+            serialized_name: ligne
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getLigne
+                setter: setLigne
+            xml_list:
+                inline: true
+                entry_name: ligne
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Ligne>
+        codepostal:
+            expose: true
+            access_type: public_method
+            serialized_name: codepostal
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodepostal
+                setter: setCodepostal
+            type: CdmFr\Model\V1_1_1\Lheo\Codepostal
+        ville:
+            expose: true
+            access_type: public_method
+            serialized_name: ville
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getVille
+                setter: setVille
+            type: CdmFr\Model\V1_1_1\Lheo\Ville
+        departement:
+            expose: true
+            access_type: public_method
+            serialized_name: departement
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getDepartement
+                setter: setDepartement
+            type: CdmFr\Model\V1_1_1\Lheo\Departement
+        codeINSEECommune:
+            expose: true
+            access_type: public_method
+            serialized_name: code-INSEE-commune
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeINSEECommune
+                setter: setCodeINSEECommune
+            type: CdmFr\Model\V1_1_1\Lheo\CodeINSEECommune
+        codeINSEECanton:
+            expose: true
+            access_type: public_method
+            serialized_name: code-INSEE-canton
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getCodeINSEECanton
+                setter: setCodeINSEECanton
+            type: CdmFr\Model\V1_1_1\Lheo\CodeINSEECanton
+        region:
+            expose: true
+            access_type: public_method
+            serialized_name: region
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getRegion
+                setter: setRegion
+            type: CdmFr\Model\V1_1_1\Lheo\Region
+        pays:
+            expose: true
+            access_type: public_method
+            serialized_name: pays
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getPays
+                setter: setPays
+            type: CdmFr\Model\V1_1_1\Lheo\Pays
+        geolocalisation:
+            expose: true
+            access_type: public_method
+            serialized_name: geolocalisation
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getGeolocalisation
+                setter: setGeolocalisation
+            type: CdmFr\Model\V1_1_1\Lheo\Geolocalisation
+        extras:
+            expose: true
+            access_type: public_method
+            serialized_name: extras
+            xml_element:
+                namespace: 'http://www.lheo.org/2.0'
+            accessor:
+                getter: getExtras
+                setter: setExtras
+            xml_list:
+                inline: true
+                entry_name: extras
+                namespace: 'http://www.lheo.org/2.0'
+            type: array<CdmFr\Model\V1_1_1\Lheo\Extras>

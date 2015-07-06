@@ -1,0 +1,31 @@
+CdmFr\Model\V1_1_1\Xhtml\Pre.contentType:
+    properties:
+        a: null
+        br: null
+        span: null
+        bdo: null
+        tt: null
+        i: null
+        b: null
+        u: null
+        s: null
+        strike: null
+        em: null
+        strong: null
+        dfn: null
+        code: null
+        q: null
+        samp: null
+        kbd: null
+        var: null
+        cite: null
+        abbr: null
+        acronym: null
+        input: null
+        select: null
+        textarea: null
+        label: null
+        button: null
+        ins: null
+        del: null
+        script: null
