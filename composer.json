@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.4",
         "zendframework/zendframework": "2.3.*",
-        "sp/jms-serializer-module": "dev-master",
+        "sp/jms-serializer-module": "dev-master"
     },
     "require-dev": {
     		    
